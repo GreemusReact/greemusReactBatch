@@ -7,3 +7,6 @@ arr.push(6);
 arr.shift();
 //print final array
 console.log("array", arr);
+let arr1 = [1,false,{name:"venky"}]
+console.log(typeof(arr1))
+
