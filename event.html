@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Event Landing Page</title>
+<link rel="stylesheet" href="event.css">
+</head>
+<body>
+<div class="container fade-in">
+  <div class="bg-container">
+  <h1>Welcome to Our Event</h1>
+  <p>Date: may 24, 2024</p>
+  <p>Location: Grand Conference Hall, Hyderabad</p>
+</div>
+  <div class="agenda">
+    <h2>Agenda</h2>
+    <p>9:00 AM - Opening Remarks</p>
+    <p>10:00 AM - Keynote Speaker</p>
+  </div>
+  
+  <div class="register">
+    <h2>Register Now</h2>
+    <form id="registrationForm">
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email Address" required>
+      <input type="text" placeholder="Company">
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</div>
+
+<script>
+  document.getElementById('registrationForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+    alert('Thank you for registering!');
+  });
+</script>
+</body>
+</html>
