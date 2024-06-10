@@ -5,5 +5,7 @@ do
 {
     console.log(a);
     a++
+
+    
 }
 while(a<=b);
