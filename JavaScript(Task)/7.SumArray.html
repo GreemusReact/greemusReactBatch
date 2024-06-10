@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+   <title>Sum of all elements</title>
+</head>
+<body>
+   <h2> Finding sum of all elements using an <i>Array</i> </h2>
+   <div id="array"></div>
+   <div id="result"></div>
+   <script>
+      const data = [2,4,6,8,5];
+      var sum = 0;
+      const len = data.length
+      for (var i = 0; i < len; i++) {
+         sum += data[i];
+      }
+      document.getElementById("array").innerHTML = "Array = [" + data+ "]";
+      document.getElementById("result").innerHTML ="Sum of All Elements: " + sum;
+   </script>
+</body>
+</html>

@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Restaurant Website</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the body takes at least the full height of the viewport */
+}
+
+.header {
+  background-color: #333;
+  padding: 0px 0;
+  text-align: center; /* Center the header text */
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+.logo {
+    height: 60px;
+    width: 70px;
+    margin-right: -500px;
+}
+
+.menu-bar {
+  background-color: #333;
+  padding: 10px 0;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  margin-top: 60px;
+  position: fixed;
+  width: 1250px;
+}
+
+.menu-bar input[type="text"] {
+  padding: 5px;
+  margin-right: 10px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+.container {
+  max-width: 800px; /* Medium size container */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  flex: 1; /* Allow the container to grow to fill the remaining space */
+  margin-top: 150px; /* Adjusted margin to accommodate the menu bar */
+  }
+  
+.sidebar {
+  width: 200px; /* Sidebar width */
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+  position: fixed;
+  margin-top: 110px;
+  overflow-y: auto;
+  margin-left: 0px; /* Negative margin to move sidebar off-screen */
+}
+
+.sidebar h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 20px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.Items-carousel {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.Items {
+  flex: 0 0 30%; /* Adjust the width of the product cards */
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+img {
+  height: 200px;
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.product-info {
+  text-align: center;
+}
+
+.description {
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.add-to-cart {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-to-cart:hover {
+  background-color: #0056b3;
+}
+
+h1 {
+  margin-top: -50px;
+}
+
+.menu-left {
+  margin-left: -900px;
+  margin-bottom: -30px;
+}
+
+.menu-left a {
+  text-decoration: underline;
+  margin-right: 20px; /* Add space between each link */
+}
+
+.menu-right {
+  margin-left: 900px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact, .social {
+  flex: 1;
+}
+.checked {
+  color: orange;
+}
+.social img {
+  height: 20px;
+  margin-top: 10px;
+}
+
+footer h3 {
+  margin-bottom: 10px;
+}
+</style>
+</head>
+
+<body>
+<div class="header">
+  <img class="logo" src="https://www.logolynx.com/images/logolynx/5a/5ac4e9573ec7ab13edf1a88c001313d5.jpeg" alt="Food Logo">
+  <h1 class="title">Supriya's Kitchen</h1>
+</div>
+
+<div class="menu-bar">
+  <div class="menu-left">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Account</a>
+    <a href="#">Cart</a>
+    <a href="#">Help</a>
+  </div>
+  <div class="menu-right">
+    <input type="text" placeholder="Search...">
+  </div>
+</div>
+
+<div class="sidebar">
+  <h2>Sections</h2>
+  <ul>
+    <li><a href="#">Menu</a></li>
+    <li><a href="#">Restaurant</a></li>
+    <li><a href="#">location</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</div>
+
+<div class="container">
+    <div class="Items-carousel">
+
+      <div class="Items">
+        <img src="Chicken fry piece biryani.jpg" alt="Chicken Fry piece Biryani">
+        <div class="product-info">
+          <h2>Chicken Fry Piece Biryani</h2>
+          <p class="price">Mini:₹150, Full:₹300, Family Pack:₹600</p>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="Items">
+        <img src="https://figarooliveoil.com/wp-content/uploads/2022/02/chicken-dum-biryani-2.png" alt="Chicken Dhum Biryani">
+        <div class="product-info">
+          <h2>Chicken Dhum Biryani</h2> 
+          <p class="price">Mini:₹120, Full:₹250, Family Pack:₹550</p>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <button class="add-to-cart">Add to Cart</button><br><br>
+        </div>
+      </div>
+
+      <div class="Items">
+        <img src="https://s2.dmcdn.net/v/Lpm2L1Qx8p6XvxbPl/x1080" alt="Chicken Drum Sticks">
+          <div class="product-info">
+            <h2>Chicken Drum Sticks</h2>
+            <p class="price">6 Pieces:₹300</p>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <button class="add-to-cart">Add to Cart</button><br><br>
+          </div>
+        </div>
+
+        <div class="Items">
+          <img src="https://thecafesucrefarine.com/wp-content/uploads/Peruvian-Grilled-Chicken-Skewers-4-2.jpg" alt="Chicken Kebabs">
+          <div class="product-info">
+            <h2>Chicken Kebabs</h2>
+            <p class="price">Full:₹150</p>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <button class="add-to-cart">Add to Cart</button><br><br>
+          </div>
+        </div>
+
+        <div class="Items">
+            <img src="Pizza.jpg" alt="Pizza">
+              <div class="product-info">
+                <h2>Cheese Pizza</h2>
+                <p class="price">Cheese Pizza:₹300</p>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <button class="add-to-cart">Add to Cart</button>
+              </div>
+            </div>
+
+        <div class="Items">
+            <img src="Burgers.jpg" alt="Burgers">
+                <div class="product-info">
+                    <h2>Crispy Burgers</h2>
+                    <p class="price">Classic Crunchy Burger:₹70 - ₹150</p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <button class="add-to-cart">Add to Cart</button><br><br>
+                </div>
+        </div>
+       
+        <div class="Items">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7QR3GqV47cVmB_H5JCKquDX1N45rmZ4LZkg&s" alt="Deserts">
+            <div class="product-info">
+              <h2>Mutton Biryani</h2>
+              <p class="price">Family pack:₹800</p>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+              <button class="add-to-cart">Add to Cart</button><br><br>
+            </div>
+          </div>
+       
+        <div class="Items">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbBJ9pB2lMEQUEySa9snCLUvy3DIfSGQNEtA&s" alt="Deserts">
+            <div class="product-info">
+              <h2>Mutton Pot Biryani</h2>
+              <p class="price">₹350</p>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <button class="add-to-cart">Add to Cart</button><br><br>
+            </div>
+          </div>
+
+        <div class="Items">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6lgPriQAAz0qa5iWYGdtYyM-lWOSvs0mRsA&s" alt="Deserts">
+          <div class="product-info">
+            <h2>Summer Desserts</h2>
+            <p class="price">Browine Chocolate:₹50 - ₹350</p>
+            <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+            <button class="add-to-cart">Add to Cart</button><br><br>
+          </div>
+        </div>
+
+        <div class="Items">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4sHD6fjYGVAyPyChUoBO1Zyj3txqH32wRsA&s" alt="Shakes">
+              <div class="product-info">
+                <h2>Summer Milk Shakes</h2>
+                <p class="price">Vanilla, Chocolate:₹100 - ₹250</p>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <button class="add-to-cart">Add to Cart</button><br><br>
+              </div>
+            </div>
+            <div class="Items">
+              <img src="Mayonnaise.jpg" alt="Mayonnaise">
+                  <div class="product-info">
+                        <h2>Mayonnaise</h2>
+                        <p class="price">Funfoods Original:₹200</p>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <button class="add-to-cart">Add to Cart</button><br><br>
+                  </div>
+          </div>
+          <div class="Items">
+            <img src="Mocktails.jpg" alt="Mocktails">
+                <div class="product-info">
+                      <h2>Mocktails</h2>
+                      <p class="price">:Blue,Orange,Lemon:₹100 - ₹200</p>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star"></span>
+                      <button class="add-to-cart">Add to Cart</button><br><br>
+                </div>
+        </div>
+                
+    </div>
+</div>
+ 
+<footer>
+  <div class="footer-content">
+    <div class="contact">
+      <h3>Contact Us</h3>
+      <p>Email: vakkapatlasupriya9966@gmail.com</p>
+      <p>Phone: +91 9966319248</p>
+      <p>Address: SR Nagar, Hyderabad, Telangana</p>
+    </div>
+    <div class="social">
+      <h3>Follow Us</h3>
+      <a href="https://www.instagram.com/vakkapatlasupriya/"><img src="instagram.jpg" alt="Instagram"></a>
+    </div>
+
+      <small style="margin-right: 30px;">&copy; Copyright 2020-2021 Online Food Kitchen.<br><br>All Rights Are Reserved</small>
+    
+  </div>
+</footer>
+
+</body>
+</html>

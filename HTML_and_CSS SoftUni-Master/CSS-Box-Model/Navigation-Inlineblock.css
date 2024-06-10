@@ -1,0 +1,38 @@
+html {
+    font: 16px/1.2 "Helvetica", sans-serif;
+}
+
+body {
+    max-width: 60em;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Georgia", serif;
+    font-size: 1em;
+    line-height: 1.2;
+}
+
+nav {
+    display: inline-block;
+    margin-left: 2em;
+}
+
+ul li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+    margin: 0.5em;
+}
+
+.site-header {
+    border-bottom: 1px solid #000;
+    margin: 2em 0;
+}
+
+.site-title {
+    display: inline-block;
+}

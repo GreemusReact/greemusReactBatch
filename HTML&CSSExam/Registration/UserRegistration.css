@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+h1{
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+.center {
+    display: flex;
+    justify-content: center;
+ /* align-items: center; */
+    height: 100vh;
+  }
+  
+  .container {
+    padding: 16px;
+    background-color: white;
+    width: 500px; /* Adjust width as needed */
+  }
+  
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 10px; 
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]::placeholder, input[type=password]::placeholder {
+    color: #666; 
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    width: 50%;
+    outline: none;
+  }
+  
+  .signin {
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+
+  
+  .registerbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+  }
+  
+.Login{
+    border: 3px solid;
+    width: 300px;
+    height: auto;
+    padding: 35px;
+    padding-left: 80px;
+    margin-left: 420px;
+    background-color: lavender;
+
+}
+
+#button{
+    cursor: pointer;
+    background-color: rgb(55, 41, 212);
+    color: white;
+    font-weight: bold;
+}
+
+img{
+    width: 100%;
+}
+
+
+

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>17-create-array-from-argument-range</title>
+</head>
+<body>
+    <h1>17-create-array-from-argument-range</h1>
+    <script>
+        function createArrayFromRange(start,end){
+            if(start>end){
+                return[];
+            }
+            let array=[];
+            for(let i=start; i<=end; i++){
+                array.push(i);
+            }
+            return array;
+        }
+        let result=createArrayFromRange(1,5);
+        document.write('array from range:', result);
+
+    </script>
+    
+</body>
+</html>

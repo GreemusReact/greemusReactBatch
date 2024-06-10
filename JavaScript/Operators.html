@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operators in JavaScript</title>
+</head>
+
+<body>
+    <h1>Operators</h1>
+    <script>
+        
+        var a=10;
+        var b=5;
+    
+        //---Arithmetic Operators---//
+        document.write("Addition:", a+b);
+        document.write("<br>");
+        document.write("Subtraction:", a-b);
+        document.write("<br>");
+        document.write("Multiplication:", a*b);
+        document.write("<br>");
+        document.write("Division:", a/b);
+        document.write("<br>");
+        document.write("Remainder:", a%b);
+        document.write("<br>");
+        document.write("Increment:", a+=1);
+        document.write("<br>");
+        document.write("Decrement:", b-=1);
+        document.write("<br>","<br>");
+
+        //---Comparison Operators---//
+        document.write("equal to:", a==b);
+        document.write("<br>"); 
+        document.write("not equal to:", a!=b);
+        document.write("<br>"); 
+        document.write("not identical:", a!==b);
+        document.write("<br>"); 
+        document.write("Greater than:", a>b);
+        document.write("<br>"); 
+        document.write("Greater than or equal to:", a>=b);
+        document.write("<br>"); 
+        document.write("less than:", a<b);
+        document.write("<br>");
+        document.write("less than or equal to:", a<=b);
+        document.write("<br>", "<br>"); 
+
+        //---Bitwise Operators---//
+        document.write("Bitwise AND:", a&b);
+        document.write("<br>");
+        document.write("Bitwise OR:", a|b);        
+        document.write("<br>");
+        document.write(" Bitwise XOR:", a^b);
+        document.write("<br>");
+        document.write("Bitwise NOT:", ~a);
+        document.write("<br>");
+        document.write("Bitwise leftshift:", a<<1);
+        document.write("<br>");
+        document.write("Bitwise Rightshift:", a>>1);
+        document.write("<br>", "<br>");
+
+        //---Logical Operators---//
+        document.write("Logical AND:", (a>b) && (b<a));
+        document.write("<br>");
+        document.write("Logical OR:", (a>b) || (b>a));
+        document.write("<br>");
+        document.write("Logical NOT:", !(a==b));
+        document.write("<br>", "<br>");
+         
+        //---Assignment Operators---//
+        document.write("Assign:", assign=a);
+        document.write("<br>");
+        document.write("Add and assign:", a+=b);
+        document.write("<br>");
+        document.write("Subtract and assign:", a-=b);
+        document.write("<br>");
+        document.write("Multiply and assign:", a*=b);
+        document.write("<br>");
+        document.write("Divide and assign:", a/=b);
+        document.write("<br>");
+        document.write("Modulus and assign:", a%=b);
+        document.write("<br>", "<br>");
+
+        //---Special Operators---//
+        document.write("Ternary Operator:", a>b? 'a is greater': 'a is not greater');
+        document.write("<br>");
+        document.write("Comma Operator:", a=(b=5,b+1));
+        document.write("<br>");
+
+    </script>
+</body>
+</html>

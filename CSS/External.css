@@ -1,0 +1,20 @@
+h1{ /* element selector */
+    font-style: italic;
+    text-align: center;
+    font-size: 50px;
+}
+#id{ /* id selector */
+    color: rgb(123, 47, 255);
+    font-size: 40px;
+}
+.class{ /* class selector */
+    color: orange;
+    font-size: 30px;
+}
+*{  /* Universal selector */
+    background-color: aquamarine;
+}
+p, h4{
+    font-size: 30px;
+    font-style: italic;
+}

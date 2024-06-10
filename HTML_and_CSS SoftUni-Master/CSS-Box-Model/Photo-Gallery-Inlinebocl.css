@@ -1,0 +1,25 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 60em;
+    margin: 0 auto;
+    background-color: rgb(238,238,238);
+}
+
+.gallery li {
+    display: inline-block;
+    border: 0.4rem solid black;
+    width: 27%;
+    vertical-align: middle;
+    margin: 1.2% 0.5%;
+    padding: 0.5em;
+    overflow: hidden;
+}
+
+.gallery img {
+    display: block;
+    width: 100%;
+    height: auto;
+}

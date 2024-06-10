@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GCD of 2 numbers</title>
+</head>
+<body>
+    <h1>GCD of 2 numbers</h1>
+    <script>
+
+    function gcd_two_numbers(x, y) {
+        if ((typeof x !== 'number') || (typeof y !== 'number')) 
+        return false;
+            x = Math.abs(x);
+            y = Math.abs(y);
+        while(y) {
+         var t = y;
+         y = x % y;
+         x = t;
+         }
+         return x;
+    }
+document.write(gcd_two_numbers(12, 13), "<br>");
+document.write(gcd_two_numbers(9, 3));
+    </script>
+</body>
+</html>

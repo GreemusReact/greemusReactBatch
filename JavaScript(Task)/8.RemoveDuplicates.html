@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remove duplicates in array</title>
+</head>
+<body>
+    <script>
+        let arr = ["apple", "mango", "apple",
+          "orange", "mango", "mango"];
+          
+        function removeDuplicates(arr) 
+        {
+        return arr.filter((item,
+        index) => arr.indexOf(item) === index);
+        }
+    document.write(removeDuplicates(arr));
+    </script>
+</body>
+</html>

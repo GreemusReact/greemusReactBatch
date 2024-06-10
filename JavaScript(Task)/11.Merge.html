@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merge 2 arrays and Remove Duplicates</title>
+</head>
+<body>
+    <h1>Merge 2 arrays and Remove Duplicates</h1>
+    <script>
+        var arr1 = [1, 2, 3, 4, 5, 6]; 
+        var arr2 = [3, 4, 5, 7];
+            var arr = [...arr1, ...arr2];
+            var mergedArr = [...new Set(arr)]
+        document.write(mergedArr);
+    </script>
+    
+</body>
+</html>

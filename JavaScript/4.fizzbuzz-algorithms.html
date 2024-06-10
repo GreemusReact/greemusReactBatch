@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fizzbuzz-algorithms</title>
+</head>
+<body>
+    <h1>4-fizzbuzz-algorithms</h1>
+    <h3>Write a function which checks given input/parameter:</h3>
+    <script>
+    /*
+    <ul>
+        <li>If input/parameter is divisible by 3 print => Fizz</li>
+        <li>If input/parameter is divisible by 5 print => Buzz</li>
+        <li>If input/parameter is divisible by 3 or 5 print => FizzBuzz</li>
+        <li>If input/parameter is NOT divisible by 3 or 5 print => given Input Number/Value</li>
+        <li>If input/parameter is other than Number/Value print => 'Nan - Not a Number! Please Input Number' </li>
+      </ul>
+      */
+            function isfizzBuzz(arg){
+                if(typeof arg!=='number'){
+                    return('Nan - Not a Number! Please Input Number');
+                }
+                if((arg % 3==0) && (arg % 5==0)){
+                    return('FizzBuzz');
+                }
+                if(arg % 3==0){
+                    return 'Fizz';
+                }
+                if(arg % 5==0){
+                    return 'Buzz';
+                }
+                else{
+                    return 'Some odd number entered: ' + arg;
+                }
+            }
+            let checkFizzBuzz1 = isfizzBuzz('one');
+            document.write(checkFizzBuzz1,"<br>");
+            let checkFizzBuzz2 = isfizzBuzz(true);
+            document.write(checkFizzBuzz2,"<br>");
+            let checkFizzBuzz3 = isfizzBuzz(9);
+            document.write(checkFizzBuzz3,"<br>");
+            let checkFizzBuzz4 = isfizzBuzz(10);
+            document.write(checkFizzBuzz4,"<br>");
+            let checkFizzBuzz5 = isfizzBuzz(30);
+            document.write(checkFizzBuzz5,"<br>");
+            let checkFizzBuzz6 = isfizzBuzz(11);
+            document.write(checkFizzBuzz6);
+      </script>
+</body>
+</html>

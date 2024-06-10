@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Pattern</title>
+</head>
+<body>
+    <h1>Star pattern Right angle triangle</h1>
+    <script>
+    function rightAngleTriangle(rows){
+        for(let i=1; i<=rows; i++){
+            let stars='';
+            for(let j=1; j<=i; j++){
+                stars +='*';
+            }
+            document.write(stars + '<br>');
+        }
+    }
+    rightAngleTriangle(5);
+    </script>
+</body>
+</html>

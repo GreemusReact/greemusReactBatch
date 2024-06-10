@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Max Number</title>
+</head>
+<body>
+    <h1>02-max-number</h1>
+    <h3>Write a function which returns the maximum of 2 numbers</h3>
+
+    <script>
+        document.write('02-max-number',"<br>");
+
+        function findMaxNumber(num1, num2){
+            // 1. long syntax
+            /* if(num1>num2){
+                return num1
+            } else{
+                return num2
+            } */
+
+            // 2. Short syntax
+            /* if(num1>num2) return num1;
+            else return num2; */
+
+            // 3. Ternary short syntax
+            return (num1>num2) ? num1:num2;
+            }
+        let checkMax1=findMaxNumber(10,5);
+        document.write('Max number:', checkMax1,"<br>");
+        let checkMax2=findMaxNumber(100,50);
+        document.write('Max number:', checkMax2,"<br>");
+        let checkMax3=findMaxNumber(1000,500);
+        document.write('Max number:', checkMax3);
+
+    </script>
+</body>
+</html>

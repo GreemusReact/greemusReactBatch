@@ -1,0 +1,30 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    max-width: 60em;
+    margin: 0 auto;
+}
+
+div {
+    margin: 5em;
+}
+
+p {
+    width: 200px;
+    border: 5px solid #000;
+    border-radius: 10px;
+    background-color: rgb(64, 224, 208);
+    padding: 0.5em;
+    margin: auto;
+}

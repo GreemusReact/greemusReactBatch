@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landscape Portrait</title>
+</head>
+<body>
+    <h1>3-Landscape Portrait</h1>
+    <h3>Write a function which checks given width and height, returns true (landscape) if width is greater than height and vice versa</h3>
+    <script>
+        function isLandscape(width,height){
+            // 3.ternary short syntax
+            return(width>height);
+        }
+        let checkWidthHeight1 = isLandscape(800,600);
+        document.write('Landscape:',checkWidthHeight1,"<br>");
+        let checkWidthHeight2 = isLandscape(600,800);
+        document.write('Landscape:',checkWidthHeight2);
+    </script>
+</body>
+</html>

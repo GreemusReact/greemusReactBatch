@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>second largest number in an Array </title>
+</head>
+<body>
+    <script>
+    function findSecondLargest(arr) {
+        let largest = arr[0];
+        let secondLargest = arr[0];
+    
+        for (let i = 1; i < arr.length; i++) {
+            if (arr[i] > largest) {
+                secondLargest = largest;
+                largest = arr[i];
+            } else if (arr[i] > secondLargest && arr[i] !== largest) {
+                secondLargest = arr[i];
+            }
+        }
+    
+        return secondLargest;
+    }
+    let arr = [10, 5, 15, 20, 12];
+    document.write("Second largest number is:", findSecondLargest(arr));
+</script>
+    
+</body>
+</html>

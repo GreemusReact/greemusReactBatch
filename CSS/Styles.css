@@ -1,0 +1,26 @@
+.container {
+    width: 800px; 
+    margin: 0 auto; 
+    overflow: hidden;
+}
+
+.column {
+    float: left;
+    width: 50%; 
+    box-sizing: border-box;
+    padding: 20px; 
+}
+
+.left {
+    background-color: #90d5f3; 
+}
+
+.right {
+    background-color: #e19fd1; 
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}

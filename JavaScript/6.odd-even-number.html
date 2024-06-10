@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>odd-even-number</title>
+</head>
+<body>
+    <h1>6-odd-even-number</h1>
+    <h3>Write a function which checks number till given input/parameter is odd or even</h3>
+    <script>
+        function isOddEvenNumber(n){
+            for(let i=0;i<=n;i++){
+                const alertMessage=(i%2==0) ? 'Even':'Odd';
+                document.write(i, alertMessage,"<br>");
+            }
+        }
+        isOddEvenNumber(10);
+    </script>
+</body>
+</html>

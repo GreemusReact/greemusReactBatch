@@ -1,0 +1,234 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    color: maroon;
+    text-align: center;
+    padding: 20px 0;
+    animation-name: color1;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes color1{
+    0%{
+      background-color: #171cb3a0;
+      
+    }
+    100%{
+      background-color: rgba(99, 172, 172, 0.607);
+    }
+  }
+  header img{
+    border: 1px;
+    border-radius: 50%;
+    width: 200px;
+    height: 120px;
+    margin-top: -120px;
+    margin-right: 50px;
+    float: left;
+    margin-left: 90px;
+
+  }
+  
+  .about{
+    background-color: rgba(36, 202, 202, 0.813);
+    border: 1px solid;
+   
+  }
+  .about div{
+      width: 500px;
+      text-align: justify;
+      padding-left: 100px;
+      height: 180px;
+      
+    }
+    .abt-img{
+        border: 1px;
+        border-radius: 10px;
+        width: 300px;
+        height: 170px;
+        float: right;
+        margin-top: -195px;
+        padding-right: 50px;
+        
+    }
+    
+    .details{
+      margin-top:-20px;
+      animation-name: color2;
+      animation-duration:3s;
+      animation-iteration-count: infinite;
+    }
+  @keyframes color2{
+    0%{
+      background-color: rgb(160, 107, 38);
+      
+    }
+    100%{
+      background-color: rgb(60, 250, 66);
+    }
+  }
+
+.details div{
+    width: 500px;
+    height: 190px;
+    padding-left: 100px;
+}
+.det-img{
+        border: 1px;
+        border-radius: 20px;
+        width: 400px;
+        height: 200px;
+        float: right;
+        margin-top: -210px;
+      }
+
+  
+  .guest{
+    background-color: rgba(225, 130, 203, 0.571);
+   
+  }
+  .guest div{
+    background-color: rgb(224, 89, 92);
+    border: 2px solid;
+    border-radius: 30px;
+    width: 400px;
+    height: 500px;
+    padding:0 20px;
+    display:inline-table;
+    margin-left: 100px;
+    text-align: justify;
+    
+  }
+  .abt-gst{
+    font-weight: bold;
+  }
+  .guest-img{
+    border: 1px;
+    border-radius: 60px;    
+    width: 200px;
+    height: 200px;
+    margin-left: 90px;
+    margin-top: 20px;
+  }
+  .schedule{
+    animation-name: color1;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes color1{
+    0%{
+      background-color: rgba(121, 212, 232, 0.696);
+
+    }
+    50%{
+      background-color: #8aad31a0;
+      
+    }
+    100%{
+      background-color: rgb(236, 103, 15);
+    }
+  }
+  
+
+  .day{
+    width: 500px;
+    margin-left: 400px;
+    padding: 20px 0;
+  }
+
+  .img-p1{
+    border: 1px;
+    border-radius: 50px;    
+    width: 300px;
+    height: 200px;
+    margin-top: -200px;
+    margin-right: 50px;
+    float: right;
+
+  }
+  .img-t1{
+    border: 1px;
+    border-radius: 50px;    
+    width: 300px;
+    height: 200px;
+    margin-top: -200px;
+    margin-right: 50px;
+    float: left;
+    margin-left: 50px;
+
+  }
+  .img-p2{
+    border: 1px;
+    border-radius: 50px;
+    width: 300px;
+    height: 200px;
+    margin-top: -200px;
+    margin-right: 50px;
+    float: right;
+  }
+  .img-t2{
+    border: 1px;
+    border-radius: 50px;
+    width: 300px;
+    height: 200px;
+    margin-top: -200px;
+    margin-right: 50px;
+    float: left;
+    margin-left: 50px;
+  }
+
+  .registration{
+    background-color: rgba(53, 196, 65, 0.813);
+   
+  }
+  .regbox{
+    background-color: rgb(193, 244, 135);
+    border: 1px solid;
+    border-radius: 30px;
+    width: 400px;
+    height: 350px;
+    padding:10px;
+    padding-left: 50px;
+    margin-left: 380px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  form{
+    padding-left: 70px;
+  }
+      button{
+        background-color:blue;
+          border: 1px solid;
+          border-radius: 15px;
+          margin-left: 5px;
+          width: 100px;
+          height: 30px;
+          font-weight: bold;
+        }
+
+        button:hover{
+            background-color: rgba(210, 38, 195, 0.84);
+            cursor: pointer;
+}
+  
+  section {
+    padding: 20px;
+  }
+  h2{
+    text-align: center;
+  }
+  footer p{
+    margin: 0;
+    padding: 25px;
+    height: 30px;
+    text-align: center;
+    background-color: brown;
+  }
+  
+
+  
+  

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speed-limits</title>
+</head>
+<body>
+    <h1>5-speed-limits</h1>
+    <script>    
+  /* <h3>Write a function which checks given input/parameter:</h3>
+  <ul>
+    <li>If input/parameter is below speedlimit of 70 print => 'Good Safe Driving'</li>
+    <li>If input/parameter is above speedlimit of 70, every 5 kilometers is Penalty Point, print => 'Speed Limit Crossed by Penalty Point' + Point </li>
+    <li>If Driver gets more than 10 penalty points ie. above the speed limit 120, print => 'License Suspended'</li>
+  </ul> */
+  
+    const SPEEDLIMIT =70, KMPERPOINT=5;
+    function checkSpeedLimit(curSpeed) {
+        if (curSpeed <= SPEEDLIMIT) {
+          return ('Good Safe Driving!');
+        } else {
+          let penaltyPoint = Math.floor((curSpeed - SPEEDLIMIT) / KMPERPOINT);
+          if (penaltyPoint < 10) {
+            return ('Speed Limit Crossed by Penalty Point: ' + penaltyPoint);
+          } else {
+            return ('License Suspended!');
+          }
+        }
+      } 
+      let checkPoin1 = checkSpeedLimit(40);
+      document.write(checkPoin1,"<br>");
+      let checkPoin2 = checkSpeedLimit(70);
+      document.write(checkPoin2,"<br>"); 
+      let checkPoin3 = checkSpeedLimit(75);
+      document.write(checkPoin3,"<br>");  
+      let checkPoin4 = checkSpeedLimit(99);
+      document.write(checkPoin4,"<br>");
+      let checkPoin5 = checkSpeedLimit(120);
+      document.write(checkPoin5);
+    </script>
+
+
+</body>
+</html>
