@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.container {
+  width: 300px;
+  margin: auto;
+  background-color: #555;
+  height: 400px;
+  color: white;
+}
+.topnav {
+  background-color: #548f42;
+  position: relative;
+}
+.topnav #items {
+  display: none;
+}
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  display: block;
+}
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.topnav a:hover {
+  background-color: #993a3a;
+  color: black;
+}
+</style>
+</head>
+<body>
+    <h2 style="text-align: center;">Nav bar with hamburger menu</h2>
+<div class="container">
+<div class="topnav">
+  <a href="#Home">Home</a>
+  <div id="items">
+    <a href="#About">About</a>
+    <a href="#Products">Products</a>
+    <a href="#Contact">Contact</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<div style="padding-left:16px">
+  <h3>Hamburger menu</h3>
+  <p>Click on the menu bar to see the items!</p>
+  <p>This is responsive nav bar for mobile devices.</p>
+</div>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("items");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+</body>
+</html>

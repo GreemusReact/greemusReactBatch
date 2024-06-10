@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .main{
+                display: flex;
+                border: 2px solid;
+                width: 300px;
+                height: 200px;
+            }
+            .content{
+                height: 200px;
+                width: 200px;
+                overflow: scroll;
+                flex-direction: column;
+                padding-left: 100px;
+            }
+            .sidebar{
+                position: fixed;
+                padding-left: 10px;
+                background-color: burlywood;
+                height: 200px;
+            }
+            li{
+                list-style: none;
+            }
+        </style>
+    </head>
+    <body>
+       <h2>Sticky Sidebar</h2>
+       <div class="main">
+           <div class="content">
+               <h4>Key Features of JavaScript:</h4>
+               <p>
+                   Versatility: JavaScript can be used to develop websites, games, mobile apps, and more. <br><br>
+                   Client and Server-Side: With frameworks like Node.js and Express.js, JavaScript is now used for building server-side applications. <br><br>
+                   End-to-End Solutions: JavaScript enables developers to create complete solutions for various problems. <br><br>
+                   Constant Evolution: JavaScript continually evolves with new features and standards. <br><br>
+                   Vibrant Community: A large community of users and mentors actively contributes to JavaScript’s growth.
+                </p>
+            </div>
+                <div class="sidebar">
+                    <h4>Sidebar</h4>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Products</li>
+                        <li>Contact Us</li>
+                </div>
+        </div>
+    </body>
+</html>

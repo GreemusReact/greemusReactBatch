@@ -1,0 +1,10 @@
+body{
+    background-color: aquamarine;
+}
+.box{
+    background-color: rgb(107, 107, 198);
+}
+input{
+    background-color: green;
+    margin-left: 20px;
+}
