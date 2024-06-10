@@ -1,0 +1,18 @@
+266.	Write a JavaScript program to merge two arrays and remove duplicates.
+<script>
+    function mergeAndRemoveDuplicates(arr1, arr2) {
+    const combinedArray = [...arr1, ...arr2];
+
+    const uniqueSet = new Set(combinedArray);
+    const mergedArray = Array.from(uniqueSet);
+
+    return mergedArray;
+}
+
+const array1 = [1, 2, 3, 4];
+const array2 = [3, 4, 5, 6];
+
+const result = mergeAndRemoveDuplicates(array1, array2);
+document.write(`Merged array with duplicates removed: [${result}]`);
+
+</script>

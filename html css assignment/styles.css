@@ -1,0 +1,21 @@
+/* Reset default styles for the list */
+ul.custom-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Style the list items */
+ul.custom-list li {
+    padding-left: 20px; /* Add spacing between bullet and text */
+    position: relative;
+}
+
+/* Add custom bullet points */
+ul.custom-list li::before {
+    content: "\2022"; /* Unicode bullet character (•) */
+    position: absolute;
+    left: 0;
+    top: 5px; /* Adjust vertical position */
+    font-size: 16px; /* Customize bullet size */
+}

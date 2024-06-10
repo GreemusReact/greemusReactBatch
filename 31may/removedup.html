@@ -1,0 +1,11 @@
+<script>
+    function removeDuplicates(inputArray) {
+  const uniqueSet = new Set(inputArray);
+  const uniqueArray = Array.from(uniqueSet);
+
+  return uniqueArray;
+}
+const numbers = [1, 2, 3, 2, 4, 3, 5];
+const result = removeDuplicates(numbers);
+console.log(result);
+</script>

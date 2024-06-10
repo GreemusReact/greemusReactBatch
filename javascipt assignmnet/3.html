@@ -1,0 +1,30 @@
+//*Write a JavaScript program to find the largest of three numbers.//
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function findLargestNumber(a, b, c) {
+    let largest = a;
+    if (b > largest) {
+        largest = b;
+    }
+    if (c > largest) {
+        largest = c;
+    }
+    return largest;
+}
+const num1 = 10;
+const num2 = 25;
+const num3 = 15;
+
+const result = findLargestNumber(num1, num2, num3);
+document.write(`The largest number among ${num1}, ${num2}, and ${num3} is ${result}.`);
+
+    </script>
+</body>
+</html>

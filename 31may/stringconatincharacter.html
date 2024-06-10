@@ -1,0 +1,12 @@
+<script>
+    function filterStringsByCharacter(strings, targetChar) {
+    const filteredStrings = strings.filter((str) => str.includes(targetChar));
+    return filteredStrings;
+}
+
+const inputStrings = ["apple", "banana", "cherry", "grape"];
+const targetCharacter = "a";
+const result = filterStringsByCharacter(inputStrings, targetCharacter);
+document.write("Strings containing 'a':", result); 
+
+</script>

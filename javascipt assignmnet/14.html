@@ -1,0 +1,11 @@
+305.	Develop a JavaScript function to sort an array of numbers in ascending order.
+<script>
+    function sortAscending(arr) {
+    arr.sort((a, b) => a - b);
+    return arr;
+}
+const myArray = [5, 2, 8, 1, 3];
+const sortedArray = sortAscending(myArray);
+document.write(`Sorted array in ascending order: [${sortedArray}]`);
+
+</script>

@@ -1,0 +1,10 @@
+body{
+
+}
+table{
+    background-color: blueviolet;
+
+}
+table:hover{
+    transition-duration: repeat(1s);
+}

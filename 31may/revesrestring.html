@@ -1,0 +1,10 @@
+<script>
+    function getReversedString(strings)
+{
+    const ReversedArray=strings.map((str)=>str.split('').reverse().join(''));
+    return ReversedArray;
+}
+const inputstring=["monika","arun","Aadhya"];
+const reversestring=getReversedString(inputstring);
+document.write(reversestring);
+    </script>

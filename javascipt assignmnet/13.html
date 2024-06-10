@@ -1,0 +1,17 @@
+287.	Write a JavaScript program to print the Fibonacci series up to a given number.
+<script>
+    function generateFibonacciSeries(limit) {
+    const fibonacciSeries = [0, 1];
+
+    while (fibonacciSeries[fibonacciSeries.length - 1] + fibonacciSeries[fibonacciSeries.length - 2] <= limit) {
+        const nextNumber = fibonacciSeries[fibonacciSeries.length - 1] + fibonacciSeries[fibonacciSeries.length - 2];
+        fibonacciSeries.push(nextNumber);
+    }
+
+    return fibonacciSeries;
+}
+const givenLimit = 100; 
+const result = generateFibonacciSeries(givenLimit);
+document.write(`Fibonacci series up to ${givenLimit}: [${result.join(', ')}]`);
+
+</script>

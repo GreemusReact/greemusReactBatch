@@ -1,0 +1,15 @@
+<script>
+    function findStringIndex(arr, target) {
+  const index = arr.indexOf(target);
+  return index;
+}
+const myStrings = ["apple", "banana", "orange", "grape"];
+const searchString = "banana";
+const result = findStringIndex(myStrings, searchString);
+
+if (result !== -1) {
+  console.log(`Index of "${searchString}": ${result}`);
+} else {
+  console.log(`"${searchString}" not found in the array.`);
+}
+</script>

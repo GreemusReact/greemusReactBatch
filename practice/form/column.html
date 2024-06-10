@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Column layouts</title>
+</head>
+<style>
+    .container{
+        padding:10px;
+        justify-content: center;
+        gap:20px;
+        grid-template-columns: repeat(3 1fr);
+        display: grid;
+        border: 1px;
+        display: flex;
+    }
+    .column{
+      padding:10px;
+        border:1px solid black;
+        display: grid;
+        flex-direction: column;
+    }
+    #c1{
+        background-color: blue;
+        height: 200px;
+        width: 100px;
+    }
+    #c2{
+        background-color: rgb(0, 255, 106);
+        height: 200px;
+        width: 100px;
+    }
+    #c3{
+        background-color: rgb(0, 255, 234);
+        height: 200px;
+        width: 100px;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="column" id="c1">hi</div>
+        <div class="column" id="c2">hello</div>
+        <div class="column" id="c3">everyone</div>
+    </div>
+</body>
+</html>

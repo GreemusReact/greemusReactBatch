@@ -1,0 +1,10 @@
+<script>
+    function sumArray(numbers)
+    {
+        const totalsum=numbers.reduce((acc,curr)=>acc+curr,0);
+        return totalsum;
+    }
+    const inputarray=[10,10,20,20,10,10,10];
+    const gettotalSum=sumArray(inputarray);
+    document.write(gettotalSum);
+</script>

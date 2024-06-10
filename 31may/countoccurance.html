@@ -1,0 +1,18 @@
+<script>
+
+function countOccurrences(stringArray) {
+  const occurrences = {};
+
+  for (const str of stringArray) {
+   
+    occurrences[str] = (occurrences[str] || 0) + 1;
+  }
+
+  return occurrences;
+}
+
+const inputArray = ['apple', 'banana', 'apple', 'cherry', 'banana', 'apple'];
+const result = countOccurrences(inputArray);
+console.log(result);
+
+</script>

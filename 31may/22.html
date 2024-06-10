@@ -1,0 +1,12 @@
+<script>
+    function countOccurrences(strings) {
+  const occurrences = {};
+  for (const str of strings) {
+    occurrences[str] = (occurrences[str] || 0) + 1;
+  }
+  return occurrences;
+}
+const myStrings = ["apple", "banana", "apple", "orange", "banana", "apple"];
+const result = countOccurrences(myStrings);
+console.log("Occurrences:", result);
+</script>

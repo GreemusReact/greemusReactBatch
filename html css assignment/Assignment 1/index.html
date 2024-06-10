@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> landing page</title>
+  </head>
+  <body>
+   <style>
+    My Drive
+body {
+	margin: 0px;
+	font-family: 'Poppins', sans-serif;
+	text-align: justify;
+	background-color: #ffffff;
+	padding: 1em;
+}
+
+.row {
+	display: flex;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+}
+
+
+button {
+	padding: 1em;
+	border: none;
+	cursor: pointer;
+	border-radius: 15px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+section {
+	padding: 4em;
+}
+
+h1 {
+	font-size: 64px;
+	font-weight: 900;
+	margin-bottom: 0px;
+}
+
+.ac-1 {
+	margin-right: 1em;
+}
+
+.ac-2 {
+	margin-bottom: 2em;
+}
+
+.primary {
+	color: #5243c0;
+}
+
+.pink {
+	color: #FED7DA;
+}
+
+.bg-color-pink {
+	border-color: #FED7DA;
+	background-color: #FED7DA;
+}
+
+.bg-color-red {
+	border-color: #FD6534;
+	background-color: #FD6534;
+}
+
+.bg-color-green {
+	border-color: #9ED095;
+	background-color: #9ED095;
+}
+
+.bg-color-yellow {
+	border-color: #FFE4A0;
+	background-color: #FFE4A0;
+}
+
+
+#logo {
+	height: 48px;
+}
+
+#header {
+	justify-content: space-between;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.nav-item {
+	cursor: pointer;
+	margin: 20px;
+}
+
+.nav-item:hover {
+	text-decoration: underline #5243c0 solid 3px;
+}
+
+#your_account_btn {
+	background-color: #FFD8DB;
+}
+
+#main_content {
+	width: 32vw;
+	margin-right: 5em;
+}
+
+.card {
+	font-size: 14px;
+	padding: 6px;
+	border-radius: 15px;
+	margin-bottom: 12px;
+	justify-content: space-between;
+	background-color: #f9f9f9;
+}
+
+.card:hover {
+	cursor: pointer;
+	background-color: #ffffff;
+	box-shadow: 6px 6px 12px 2px rgba(230, 230, 230, 1);
+}
+
+.card-text {
+	white-space: nowrap;
+	font-weight: bold;
+	width: 40%;
+}
+
+.card-date {
+	color: #c3c3c3;
+}
+
+.card-checkbox, .card-user-image {
+	height: 40px;
+	width: 40px;
+}
+
+.strip {
+	height: 10px;
+	width: 2em;
+	border-radius: 100px;
+	margin-top: 1em;
+}
+
+.dot {
+	font-size: 24px;
+}
+
+#new_account_btn {
+	background-color: #5243C0;
+	color: #ffffff;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+@media (max-width: 768px) {
+  }
+  @media (min-width: 769px) {
+  }
+  
+   </style>
+
+    <div id="header" class="row">
+      <div>
+        <img id="logo" src="stunning-logo.png" alt="Stunning Logo" />
+      </div>
+      <nav id="nav" class="row">
+        <div class="nav-item">Home</div>
+        <div class="nav-item">About</div>
+        <div class="nav-item">Blog</div>
+        <div class="nav-item">Jobs</div>
+      </nav>
+      <div>
+        <button id="your_account_btn" class="primary">Your Account</button>
+      </div>
+    </div>
+    <section class="row">
+      <div id="main_content" class="column">
+        <h1>Stunning Workplace<span class="dot primary">&#9632;</span></h1>
+        <p>
+          With stunning, remote teams can organize projects, manage shifting
+          priorities, and get work done.
+        </p>
+        <div class="row mb-2">
+          <button id="new_account_btn" class="ac-1">New Account</button>
+          <img src="arrow-down.png" class="ac-2" alt="arrow-up" height="44px" />
+          <img src="arrow-up.png" alt="arrow-down" height="44px" />
+        </div>
+        <div>
+            <p></p><br>
+            <p></p><br>
+            <p></p><br>
+            <p></p><br>
+        </div>
+
+        <div class="column">
+          <div class="row card">
+            <img class="card-checkbox" src="tick-gray.png" alt="tick-gray" />
+            <p class="card-text">Dmm design</p>
+            <img class="card-user-image" src="user-pink.png" alt="user-pink" />
+            <p class="card-date">20 Dec</p>
+            <span class="strip bg-color-pink"></span>
+          </div>
+          <div class="row card card-checked">
+            <img class="card-checkbox" src="tick-blue.png" alt="tick-blue" />
+            <p class="card-text">Blurr animation</p>
+            <img
+              class="card-user-image"
+              src="user-orange.png"
+              alt="user-orange"
+            />
+            <p class="card-date">22 Dec</p>
+            <span class="strip bg-color-red"></span>
+          </div>
+          <div class="row card">
+            <img class="card-checkbox" src="tick-gray.png" alt="tick-gray" />
+            <p class="card-text">Illustrtion</p>
+            <img class="card-user-image" src="user-blue.png" alt="user-blue" />
+            <p class="card-date">26 Dec</p>
+            <span class="strip bg-color-green"></span>
+          </div>
+          <div class="row card">
+            <img class="card-checkbox" src="tick-gray.png" alt="tick-gray" />
+            <p class="card-text">Refunds</p>
+            <img class="card-user-image" src="user-red.png" alt="user-red" />
+            <p class="card-date">28 Dec</p>
+            <span class="strip bg-color-yellow"></span>
+          </div>
+        </div>
+      </div>
+      <div>
+        <img
+          src="landing-section-image.png"
+          alt="Stunning Workplace Art"
+          width="100%"
+        />
+      </div>
+      
+    </section>
+  </body>
+</html>

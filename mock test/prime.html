@@ -1,0 +1,23 @@
+<script>
+    function showPrimeNumbers(numberLimit){
+    for (let curNum = 2; curNum <= numberLimit; curNum++) {
+    // console.log('curNum', curNum);
+
+    let isPrime = true;
+    for (let factor = 2; factor < curNum; factor++) {
+      // console.log('factor', factor);
+      if (curNum % factor === 0) {
+        isPrime = false;
+        break;
+      }
+    }
+
+    if (isPrime) {
+      console.log('Prime Number', curNum);
+      
+    }
+  } 
+}
+
+showPrimeNumbers(20);
+</script>

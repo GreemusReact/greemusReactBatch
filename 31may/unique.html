@@ -1,0 +1,12 @@
+<script>
+    function findUniqueCharacters(inputString) {
+  const charSet = new Set();
+  for (const char of inputString) {
+    charSet.add(char);
+  }
+  return Array.from(charSet);
+}
+const myString = "hello world";
+const uniqueChars = findUniqueCharacters(myString);
+console.log("Unique characters:", uniqueChars);
+</script>

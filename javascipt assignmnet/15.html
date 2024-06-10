@@ -1,0 +1,18 @@
+<script>
+    function countVowels(inputString) {
+    const vowels = "aeiouAEIOU";
+    let vowelCount = 0;
+
+    for (let i = 0; i < inputString.length; i++) {
+        if (vowels.includes(inputString[i])) {
+            vowelCount++;
+        }
+    }
+
+    return vowelCount;
+}
+const testString = "Hello, World!";
+const result = countVowels(testString);
+document.write(`Number of vowels in "${testString}": ${result}`);
+
+</script>

@@ -1,0 +1,6 @@
+1.monikareddyblog.netlify.app//////https://github.com/Monika1525/blog.git
+2.monikareddyecommerce.netlify.app/////https://github.com/Monika1525/ecommerceform.git
+3.monikareddyeventregistration.netlify.app////https://github.com/Monika1525/eventregistration.git
+4.monikareddyportfolio.netlify.app////////https://github.com/Monika1525/portfolio
+5.monikalogin.netlify.app////////https://github.com/Monika1525/registration.git
+6.monikaresume.netlify.app////////https://github.com/Monika1525/resume.git

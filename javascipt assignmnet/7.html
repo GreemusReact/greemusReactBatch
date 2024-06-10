@@ -1,0 +1,25 @@
+172.	Implement a JavaScript program to find the sum of all elements in an array.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function findArraySum(arr) {
+    let sum = 0;
+    for (let i = 0; i < arr.length; i++) {
+        sum += arr[i];
+    }
+    return sum;
+}
+
+const myArray = [10, 20, 30, 40, 50];
+const totalSum = findArraySum(myArray);
+document.write(`The sum of the elements in the array is: ${totalSum}`);
+
+    </script>
+</body>
+</html>

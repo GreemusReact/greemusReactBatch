@@ -1,0 +1,27 @@
+Create a JavaScript program that reverses a given string.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+function reverseString(inputString) {
+    const charArray = inputString.split('');
+
+    const reversedArray = charArray.reverse();
+
+    const reversedString = reversedArray.join('');
+
+    return reversedString;
+}
+const originalString = "Hello, World!";
+const reversedResult = reverseString(originalString);
+document.write(`Original string: ${originalString}`);
+document.write(`Reversed string: ${reversedResult}`);
+
+    </script>
+</body>
+</html>

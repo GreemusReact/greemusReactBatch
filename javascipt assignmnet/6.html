@@ -1,0 +1,26 @@
+145.	Write a JavaScript function that checks if a given string is a palindrome.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function isPalindrome(inputString) {
+    const cleanedString = inputString.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
+
+    const reversedString = cleanedString.split('').reverse().join('');
+
+    return cleanedString === reversedString;
+}
+const testString1 = "racecar";
+const testString2 = "hello";
+
+document.write(`"${testString1}" is a palindrome: ${isPalindrome(testString1)}`);
+document.write(`"${testString2}" is a palindrome: ${isPalindrome(testString2)}`);
+
+    </script>
+</body>
+</html>

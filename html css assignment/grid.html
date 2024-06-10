@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); 
+            gap: 20px; 
+            display: flex;
+justify-content: center;
+
+        }
+        .column {
+            padding: 10px;
+            border: 1px solid #ddd;
+            flex-direction: column;
+    height: 200px;
+    width: 100px;
+    border: 1px black solid;
+    
+
+        }
+        #c1{
+    background-color: rgb(196, 211, 218);
+}
+#c2{
+    background-color: rgb(103, 86, 117);
+}
+#c3{
+    background-color:rgb(7, 20, 31)
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="column"id="c1">Column 1</div>
+        <div class="column" id="c2">Column 2</div>
+        <div class="column" id="c3">Column 3</div>
+    </div>
+</body>
+</html>

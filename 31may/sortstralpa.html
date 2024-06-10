@@ -1,0 +1,8 @@
+<script>
+    function sortStringsAlphabetically(stringArray) {
+  return stringArray.slice().sort((a, b) => a.localeCompare(b));
+}
+const fruits = ['banana', 'cherry', 'apple', 'date'];
+const sortedFruits = sortStringsAlphabetically(fruits);
+console.log(sortedFruits);
+</script>

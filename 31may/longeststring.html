@@ -1,0 +1,15 @@
+<script>
+    function getLongestString(strings){
+       let longest="";
+       for(const str of strings){
+        if(str.length>longest.length){
+            longest=str;
+        }
+       }
+        return longest;
+    }
+    const inputstring=["apple","banana"];
+    const longeststring=getLongestString(inputstring);
+    document.write(longeststring);
+
+</script>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function isfizzBuzz(arg){
+    if(typeof arg !== 'number'){
+      return ('Nan - Not a Number! Please Input Number');
+    }
+  
+    if((arg % 3 === 0) && (arg % 5 === 0)) {
+      return 'FizzBuzz';
+    }
+  
+    if(arg % 3 === 0) {
+      return 'Fizz';
+    }
+  
+    if(arg % 5 === 0) {
+      return 'Buzz';
+    }
+  
+    else {
+      return 'Some odd number entered: ' + arg;
+    }
+  
+  }
+  
+  let checkFizzBuzz1 = isfizzBuzz('one');
+  document.write(checkFizzBuzz1);
+  
+  let checkFizzBuzz2 = isfizzBuzz(30);
+  document.write(checkFizzBuzz2);
+  
+  let checkFizzBuzz3 = isfizzBuzz(9);
+  document.write(checkFizzBuzz3);
+  
+  let checkFizzBuzz4 = isfizzBuzz(10);
+  document.write(checkFizzBuzz4);
+  
+  let checkFizzBuzz5 = isfizzBuzz(30);
+  document.write(checkFizzBuzz5);
+  
+  let checkFizzBuzz6 = isfizzBuzz(11);
+  document.write(checkFizzBuzz6);
+    </script>
+</body>
+</html>
