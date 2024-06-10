@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reverse Strings</title>
+</head>
+<body>
+    <h1>4-Reverse Strings</h1>
+    <h3>Write a function that takes an array of strings and returns a new array with each string reversed</h3>
+    <script>
+        function reverseStrings(strings){
+            return strings.map(str=>str.split("").reverse().join(""));
+            }
+            const words=["summer", "fruit", "mango"];
+            const reversedwords=reverseStrings(words);
+        document.write('Reverse Strings:', reversedwords);
+    </script>
+</body>
+</html>

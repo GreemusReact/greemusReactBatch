@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Lengths in Array</title>
+</head>
+<body>
+    <h1>2-String Lengths in Array</h1>
+    <h3>Write a function that takes an array of strings and returns an array of their lengths.</h3>
+    <script>
+        function getStringLengths(strings)
+        {
+            return strings.map(string => string.length);
+        }
+        let stringArray=["Welcome", "To", "Greemus"];
+        let lengthsArray = getStringLengths(stringArray);
+        document.write(lengthsArray);
+    </script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remove duplicates</title>
+</head>
+<body>
+    <h1>12-Remove duplicates</h1>
+    <script>
+        function removeDuplicates(numbers) {
+        return numbers.filter((number, index) => numbers.indexOf(number) === index);
+        }
+        let numberArray = [1, 2, 3, 2, 4, 5, 3];
+        let uniqueNumbers = removeDuplicates(numberArray);
+        document.write(uniqueNumbers);
+    </script>
+</body>
+</html>

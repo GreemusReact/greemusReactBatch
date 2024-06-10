@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Longest String</title>
+</head>
+<body>
+    <h1>6-Longest String</h1>
+    <h3>Write a function that takes an array of strings and returns the longest string</h3>
+    <script>
+        function findLongestString(strings){
+            let LongestString="";
+            for(let i=0; i<strings.length; i++){
+                if(strings[i].length>LongestString.length){
+                    LongestString=strings[i];
+                }
+            }
+            return LongestString;
+        }
+        let stringArray=["mango","banana", "water melon","apple"];
+        let LongestString=findLongestString(stringArray);
+        document.write(LongestString);
+    </script>
+</body>
+</html>

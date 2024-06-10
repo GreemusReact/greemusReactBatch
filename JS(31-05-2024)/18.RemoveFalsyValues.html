@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remove Falsy Values</title>
+</head>
+<body>
+    <h1>18-Remove Falsy Values</h1>
+    <script>
+        function removeFalsyValues(array) {
+        return array.filter(value => !!value);
+        }
+        let mixedArray = [0, 1, false, true, "", "hello", null, undefined, NaN];
+        let filteredArray = removeFalsyValues(mixedArray);
+    document.write(filteredArray);
+    </script>
+</body>
+</html>

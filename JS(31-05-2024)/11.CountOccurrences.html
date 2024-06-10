@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Count Occurrences</title>
+</head>
+<body>
+    <h1>11-Count Occurrences</h1>
+    <script>
+        function countOccurrences(arr) {
+    const occurrences = {}; // Initialize an empty object to store counts
+
+    // Iterate over each string in the array
+    for (const str of arr) {
+        // If the string is already a key in the occurrences object, increment its count
+        if (occurrences.hasOwnProperty(str)) {
+            occurrences[str]++;
+        } else {
+            // Otherwise, initialize the count to 1
+            occurrences[str] = 1;
+        }
+    }
+    return occurrences;
+}
+
+// Example usage:
+const inputArray = ["apple", "banana", "apple", "orange", "banana", "apple"];
+const result = countOccurrences(inputArray);
+    document.write(result);
+    </script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convert Strings to Uppercase</title>
+</head>
+<body>
+    <h1>16-Convert Strings to Uppercase</h1>
+    <script>
+        function convertToUppercase(strings) {
+        return strings.map(string => string.toUpperCase());
+        }
+        let stringArray = ["apple", "banana", "cherry"];
+        let uppercaseArray = convertToUppercase(stringArray);
+    document.write(uppercaseArray); 
+    </script>
+</body>
+</html>

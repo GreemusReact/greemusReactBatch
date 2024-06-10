@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unique Characters</title>
+</head>
+<body>
+    <h1>19-Unique Characters</h1>
+    <script>
+        function findUniqueCharacters(str) {
+        return [...new Set(str)].filter(char => char !== ' ');
+        }
+    let inputString = "hello world";
+    let uniqueCharacters = findUniqueCharacters(inputString);
+    document.write(uniqueCharacters); 
+    </script>
+</body>
+</html>

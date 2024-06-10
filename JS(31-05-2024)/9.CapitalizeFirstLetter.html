@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capitalize First Letter</title>
+</head>
+<body>
+    <h1>9-Capitalize First Letter</h1>
+    <h3>Write a function that takes an array of strings and returns a new array with the first letter of each string capitalized</h3>
+    <script>
+        function CapitalizeFirstLetter(strings){
+            return strings.map(str => str[0].toUpperCase()+ str.slice(1));
+        }
+        let stringArray=["welcome","to", "greemus"];
+        let capitalizedArray=CapitalizeFirstLetter(stringArray);
+        document.write(capitalizedArray);
+    </script>
+</body>
+</html>

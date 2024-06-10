@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sum of Square of Numbers</title>
+</head>
+<body>
+    <h1>15-Sum of Square of Numbers</h1>
+    <script>
+        function sumOfSquares(numbers) {
+        return numbers.reduce((sum, num) => sum + (num * num), 0);
+        }
+        let numberArray = [1, 2, 3, 4, 5];
+        let result = sumOfSquares(numberArray);
+    document.write(result);
+    </script>
+</body>
+</html>
