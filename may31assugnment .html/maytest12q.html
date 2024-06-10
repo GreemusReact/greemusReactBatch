@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function duplicate(arr) {
+  var uniqueArray = [];
+  
+  for (var i = 0; i < arr.length; i++) {
+    if (uniqueArray.indexOf(arr[i]) === -1) {
+      uniqueArray.push(arr[i]);
+    }
+  }
+  
+  return uniqueArray;
+}
+var numbers = [1, 2, 3, 4, 1, 2, 5];
+var uniqueNumbers = duplicate(numbers);
+console.log(uniqueNumbers); 
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+           function duplicate(auto){
+
+            let findarray=[];
+
+            for(let i=0;i<=auto.length;i++){
+
+                if(findarray.indexOf(auto[i])===-1){
+                    findarray.push(auto[i])
+                }
+            }
+
+            return findarray;
+
+           
+
+           }
+
+           let numbers=[1,1,2,3,3,4,4,55,6,6,4,32,1,1,1,1,1,1,345]
+
+           let result=duplicate(numbers);
+
+           console.log(result);
+
+
+
+         function indexOfarray(array,string){
+
+            for(let i=0;i<array.length;i++){
+
+                if(array[i]==string){
+
+                    return i;
+                }
+            }
+            return -1;
+         }
+
+         var str=["html","css","recat","type"]
+
+         var ans=indexOfarray(str,"type");
+
+         console.log(ans)
+
+
+         function sortString(array){
+
+            return array.slice().sort()
+    
+            
+         }
+
+         var str=["html","css","recat","type"]
+
+         var code= sortString(str);
+         console.log(code)
+
+    </script>
+   
+</body>
+</html>

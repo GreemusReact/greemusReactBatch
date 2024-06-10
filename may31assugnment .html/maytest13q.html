@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function indexCheck(arr, str) {
+            for (var i = 0; i < arr.length; i++) {
+                if (arr[i] === str) {
+                    return i;
+                }
+            }
+            return -1;
+        }
+        var strings = ["html", "css", "java", "react"];
+        var index = indexCheck(strings, "react");
+        console.log(index);
+
+        index = indexCheck(strings, "typescript");
+        console.log(index);
+
+    </script>
+
+</body>
+
+</html>

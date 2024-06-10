@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        let amount=100;
+        let days=30;
+        let interest=2;
+
+        for(let i=1;i<=days;i++){
+            if(i%4===0){
+                amount+=interest
+
+            }    
+        document.write("days are"+i+"counted the amount"+amount+"<br>")
+        }
+
+
+        let array=[1,2,3,4,5,6,7]
+        array.push(9)
+
+        console.log(array)
+
+        let array1=['raju','rama','lokesh']
+        array1.pop('lokesh')
+        console.log(array1)
+
+
+        let array2=['raju','rama','lokesh']
+        console.log(array2.indexOf('rama'))
+
+        let array3=['raju','rama','lokesh','ramya','lucky']
+        let result=array3.slice(1,4)
+        console.log(result)
+
+        let car=['bmw','range','gauar','lamborgini']
+
+        car.forEach(function(vechile,index){
+
+            document.write(vechile+index+"<br>")
+        })
+
+
+        let not=[1,2,3,4,5,56,6,7,8]
+
+        not.shift()
+        console.log(not)
+
+
+        
+        let dot=[1,2,3,4,5,56,6,7,8]
+
+        dot.unshift(99)
+        console.log(dot)
+
+
+
+        let  age=['23','44','55','18']
+
+        var year=age.map(function(ele,index){
+
+            let year=10-ele;
+            return year;
+        })
+        document.write(year)
+    </script>
+</body>
+</html>

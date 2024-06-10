@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        function stringsArray(arrayString) {
+            var alphabets = [];
+            arrayString.forEach(function (str) {
+                alphabets.push(str.length);
+            });
+            return alphabets;
+        }
+
+        let strings = ["hyderabad", "vizag", "amaravathi", "rajamundry"];
+        let alphabets = stringsArray(strings);
+        console.log(alphabets);
+        
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,117 @@
+body{
+    background-color: lavenderblush;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: green;
+    text-align: center;
+    padding: 10px;
+}
+
+.navbar {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 15px 0px;
+    margin: auto;
+    background-color: aqua;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline-block;
+    padding: 10px 20px;
+    list-style-type: none;
+ 
+
+}
+ul li a{
+ 
+    text-decoration: none;
+    font-weight: 600;
+    transition: .4s ease;
+    color:blue;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+ul li a:hover{
+    color:limegreen;
+    background-color: chartreuse;
+    color:red;
+}
+.items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row: 20px;
+    grid-column: 50px;
+    padding: 20px 30px;
+
+}
+ .item img {
+    margin-top: 20px;
+    margin-left: 60px;
+    width:300px;
+    height: 250px;
+    border-radius: 10px;
+    padding-top: 20px;
+    transition: 0.2s ease;
+    object-fit: cover;
+    cursor: pointer;
+
+ }
+  .item img:hover{
+    transform:scale(1.4) ;
+  }
+
+  .item h4{
+    text-align: center;
+    padding: 5px;
+  }
+  .item button{
+    padding: 3px 5px 0px ;
+    border-radius: 4px;
+    width:100px;
+    height:28px ;
+    margin-top: 10px;
+    margin-left: 60px;
+    cursor: pointer;
+    background-color: rgb(255, 80, 32);
+    color:  rgb(251, 255, 255);
+    transition: .2s all;
+    
+  }
+
+  .item button:hover{
+    background-color: rgb(68, 196, 0);
+    color:white;
+    transform: scale(1.08);
+  }
+
+  .item .btn{
+
+    background-color:blue;
+    width:100px;
+    
+    margin-top: 7px;
+    margin-left: 35%;
+    padding-left: 2px;
+  }
+
+  p{
+
+    background-color: rgb(199, 248, 199);
+    width: 70%;
+    margin-left: 20%;
+    border-radius: 10px;
+  }

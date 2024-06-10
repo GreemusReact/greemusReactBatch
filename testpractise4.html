@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      /* function conact(string){
+
+        return string.join('');
+
+       }
+       let arrays=["let ","dance","baby"]
+
+       let result=conact(arrays);
+
+       console.log(result)*/
+
+       
+       function capitalString(arr) {
+  var newArr = [];
+  for (var i = 0; i < arr.length; i++) {
+    var word = arr[i];
+    var capitalizedWord = word.charAt(0).toUpperCase() + word.slice(1);
+    newArr.push(capitalizedWord);
+  }
+  return newArr;
+}
+
+var strings = ["html","css","java"];
+var capitalizedStrings = capitalString(strings);
+console.log(capitalizedStrings); 
+
+
+
+
+
+
+        
+    </script>
+</body>
+</html>

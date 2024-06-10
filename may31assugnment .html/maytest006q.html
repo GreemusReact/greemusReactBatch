@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function stringLong(stringArray) {
+            let longestString = '';
+            for (let i = 0; i < stringArray.length; i++) {
+                if (stringArray[i].length > longestString.length) {
+                    longestString = stringArray[i];
+                }
+            }
+            return longestString;
+        }
+        let strings = ['htm', 'css', 'java', 'javascript'];
+        let longest = stringLong(strings);
+        console.log(longest);
+
+    </script>
+</body>
+
+</html>

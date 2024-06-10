@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function Uniquevalue(str) {
+            var uniqueChars = [];
+
+            for (var i = 0; i < str.length; i++) {
+                if (uniqueChars.indexOf(str[i]) === -1) {
+                    uniqueChars.push(str[i]);
+                }
+            }
+
+            return uniqueChars;
+        }
+        var String = "javascript";
+        var uniqueCharacters = Uniquevalue(String);
+        console.log(uniqueCharacters);
+
+    </script>
+</body>
+
+</html>

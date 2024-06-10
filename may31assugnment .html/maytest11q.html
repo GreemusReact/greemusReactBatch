@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function count(arr) {
+  var occurrences = {};
+  
+  for (var i = 0; i < arr.length; i++) {
+    var word = arr[i];
+    if (occurrences[word]) {
+      occurrences[word] += 1;
+    } else {
+      occurrences[word] = 1;
+    }
+  }
+  
+  return occurrences;
+}
+
+
+var strings = ["html","css","java","java","java","html"];
+var occurrences = count(strings);
+console.log(occurrences);
+
+    </script>
+</body>
+</html>

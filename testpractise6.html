@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       function sumnumber(number){
+
+        let sum=0;
+        for(let i=0;i<number.length;i++){
+              
+            sum+=number[i]*number[i]
+        }
+        return sum
+       }
+
+       let array=[234,34,55,66]
+
+       let result=sumnumber(array);
+       console.log(result)
+    </script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+    
+   /*function reverseString(string){
+
+    let newString=[];
+
+    for(let i=string.length-1;i>=0;i--){
+
+        newString=newString+string[i];
+    }
+    return newString;
+   }
+
+   let array=["react"]
+   let newString=reverseString(array)
+   console.log(newString)*/
+
+   function sum(array) {
+    let newsum = 0; // Initialize as numerical value
+
+    for (let i = 0; i < array.length; i++) { // Loop until i < array.length
+        newsum += array[i]; // Accumulate the sum
+    }
+
+    return newsum; // Return the calculated sum
+}
+
+let numbers = [22, 33, 444, 555, 6, 7776, 32, 2, 2];
+let totalsum = sum(numbers);
+console.log(totalsum);
+
+     
+
+   </script>
+</body>
+</html>

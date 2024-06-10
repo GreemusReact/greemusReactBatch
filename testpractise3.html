@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+            
+          /*  function fun(string){
+                let longest='';
+
+        for(let i=0;i<string.length;i++){
+
+            if(string[i].length>longest.length)
+            {
+                longest=string[i];
+            }
+        }
+        return longest
+            }
+            let array=['longest','array','react']
+            let result=fun(array);
+
+            console.log(result)*/
+
+   function containchar(string,char){
+
+    let char=[];
+
+    for(let i=0;i<string.length;i++){
+        if(string[i].includes (char)){
+
+            char.push(string[i])
+        }
+
+    }
+    return char;
+   }
+
+
+let str= "a";
+let result = stringsContainingCharacter(strings, char);
+console.log(result);
+
+
+
+
+    </script>
+</body>
+</html>

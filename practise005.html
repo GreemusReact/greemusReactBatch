@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      //  let company={name:'greemus',location:'hyderabad',emplyId:'1003' ,details:function(){console.log('$(company.details)'}}
+
+        
+/*let person2 = new Object();
+person2.name = "John";
+person2.age = 30;
+console.log(person2.age)*/
+
+
+let ecommerece={projid:'2032',projnmae:"design logo",name:{
+    frontEnd:["javascript"],
+    backend:["nodejs"],
+},
+    proj:function(){
+        console.log("project");
+    }
+}
+console.log(ecommerece.proj)
+
+
+/*let movie={name:'rrr',
+           director:'rajamouli',
+           realese:'jan 2'
+}
+console.log(movie)
+  movie.budget="2000crores"
+  movie.realese='2000crs'
+console.log(movie)
+
+movie.realese='500crs'
+console.log(movie)
+
+movie.dop="senthil"
+console.log(movie)*/
+
+/*let theater =new Object()
+theater.location='pm palem',
+theater.ticket='half',
+theater.distance='12kms'
+theater.men='full'*/
+//console.log(theater)
+
+/*function user(n,a,p)
+{
+    this.name=n,
+    this.age=a,
+    this.place=p
+
+}
+
+let user1=new user("laxman",20,"hyderabad")
+console.log(user1)
+console.log(user1.age)
+
+user1.number=45266517171
+console.log(user1)*/
+
+/*let college={name:"baba",area:"pm palem",branch:"mechanical",
+choice:["cse","civil","ece"],
+        details:function(){
+            console.log("admission details")
+
+        }
+       
+}
+
+console.log(college.area)
+
+ college.area="maddilapalem";
+
+ college.state="andhra";
+ 
+ college.details();*/
+
+ function fun(num){
+   
+    let result= num*2;
+    return result;
+
+ }
+
+ console.log(fun(13))
+ //let sum=parseInt(prompt("enter the number"));
+ //let numeric=fun(sum)
+
+ //console.log(numeric);
+
+
+ let array=[1,1,2,2,2,3,4,5,6,6,6,3,3,3,2,2,2,2,];
+ let uarray=[new Set(array)]
+ console.log(uarray)
+
+
+ let  year=[2001,2002,2003,2004]
+
+ var ages=year.map(function(year){
+
+    let ages=year-2024;
+    return ages;
+ })
+ console.log(ages )
+
+
+ let data=[2,3,4,5,6,7,8,9,10]
+
+ let newdata=data.filter(function(ele,index,data){
+
+    return ele
+
+ })
+
+ console.log(newdata)
+
+
+ let products = [
+    { id: 1, name: "Laptop", price: 999 },
+    { id: 2, name: "Smartphone", price: 699 },
+    { id: 3, name: "Tablet", price: 399 },
+    { id: 4, name: "Headphones", price: 149 }
+];
+
+let newproducts=products.map(function(products){
+
+    let newproducts=products.name;
+    return newproducts;
+
+})
+
+console.log(newproducts)
+
+    </script>
+</body>
+</html

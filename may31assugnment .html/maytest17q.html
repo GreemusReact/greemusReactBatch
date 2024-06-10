@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    function CommonElements(arr1, arr2) {
+      var commonElements = [];
+
+      for (var i = 0; i < arr1.length; i++) {
+        if (arr2.includes(arr1[i])) {
+          commonElements.push(arr1[i]);
+        }
+      }
+
+      return commonElements;
+    }
+
+
+    var array1 = ["html", "css", "java", "react"];
+    var array2 = ["nodejs", "typescript", "react", "angular", "css"];
+    var commonElementsArray = CommonElements(array1, array2);
+    console.log(commonElementsArray);
+
+  </script>
+</body>
+
+</html>

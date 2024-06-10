@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    function removeValues(arr) {
+      var filteredArray = [];
+
+      for (var i = 0; i < arr.length; i++) {
+        if (arr[i]) {
+          filteredArray.push(arr[i]);
+        }
+      }
+
+      return filteredArray;
+    }
+
+
+    var FalsyValues = [0, false, "", null, undefined, NaN, 55, "react"];
+    var Values = removeValues(FalsyValues);
+    console.log(Values);
+
+  </script>
+</body>
+
+</html>

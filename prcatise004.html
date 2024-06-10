@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       /* let arr=[1,1,2,2,2,3,3,4,4,4,4,5,5,6,6,6]
+
+        let uniquearr=[new Set(arr)]
+
+        console.log(uniquearr)*/
+
+        var str="rohit"
+        var res= str.charAt(2)
+        console.log(res);
+
+        var paresnts="raju"
+        var child="lokesh"
+        var family=paresnts.concat(child);
+
+        console.log(family)
+
+
+        var name="lakesh naga"
+        var result=name.substr('3,7')
+        console.log(result)
+
+        let includes="learn javscript"
+        let answer=includes.includes("java")
+        console.log(answer)
+
+        let trimstr="    java   "
+        let resultrim = trimstr.toLowerCase()
+        console.log(resultrim)
+
+
+        function isPrime(number) {
+    if (number <= 1) {
+        return false; // Numbers less than or equal to 1 are not prime
+    }
+    for (let i = 2; i < number; i++) {
+        if (number % i === 0) {
+            return false; // If divisible by any number other than 1 and itself, not prime
+        }
+    }
+    return true; // If not divisible by any number other than 1 and itself, prime
+}
+
+// Example usage:
+console.log(isPrime(66)); // Output: true
+console.log(isPrime(15)); // Output: false
+
+function oddEven(num){
+    if(num % 2 == 0){
+        return "even"; // Return "even" if num is even
+    }
+    else{
+        return "odd"; // Return "odd" if num is odd
+    }
+}
+
+let limit = 20; // Defining the limit outside the function
+console.log(oddEven(limit)); // Output: "even" (since 20 is even)
+
+
+
+function printEvenNumbers() {
+    for (let i = 2; i <= 100; i += 2) {
+        console.log(i);
+    }
+}
+
+// Call the function to print even numbers from 1 to 100
+printEvenNumbers();
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>

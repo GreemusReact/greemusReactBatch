@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+  /* function stringsArray(arrayString){
+
+    let length=[];
+
+           arrayString .forEach(function(str){
+             length.push(str.length)
+            })
+            return length;
+   }
+
+   let strings=["react","javascript","typescript"]
+
+   let length=stringsArray(strings)
+
+   console.log(length)*/
+
+
+  let numbers=[1,2,34,5,6,7,85,22,44,55]
+
+
+   let even= numbers.filter(function(ele){
+
+    return ele%2==0;
+
+   })
+   console.log(even)
+
+
+  let num=[222,33,55,66,77,88,99]
+
+  let notodd=num.map(function(array){
+
+    if( array% 2==0){
+        return array
+    }
+    else{
+        return false
+    }
+  })
+
+  console.log(notodd)
+
+    </script>
+    
+</body>
+</html>
