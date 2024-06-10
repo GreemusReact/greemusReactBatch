@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #660033;
+}
+.navbar{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color: #dfa0bf;
+
+   
+}
+.navbar li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    
+    text-align: center;
+}
+.navbar li a{
+    text-decoration: none;
+    padding: 20px;
+    color:black;
+   
+}
+ .navbar li a:hover{
+    transform: scale(1.2);
+    color: #ffffff;
+}
+.home{
+    padding: 0;
+    margin: 0;
+}
+.img{
+    box-sizing: border-box;
+    border: 3px #ffffff solid;
+    height: 500px;
+    width: 284px;
+    align-items: center;
+    background-color: white;
+    margin: 5px;
+    
+   
+}
+.img:hover{
+    transform: scale(1.1);
+    background-color: #dfa0bf;
+}
+
+.shop{
+display: flex;
+flex-wrap: wrap;
+margin: 20px;
+align-items: center;
+
+ 
+}
+.img:hover{
+    border: 2px solid #660033;
+
+}
+.logop{
+    background-color: #660033;
+    height: 100px;
+    padding: 30px;
+}
+.returns{
+    align-items: center;
+    justify-content: center;
+    border: #660033 3px solid;
+    margin-bottom: 20px;
+    margin-top: 20px;
+   
+}
+.para{
+    padding: 20px;
+    font-size: large;
+   
+}
+.store{
+    border:#660033 2px solid;
+}
+
+.log{
+    width:100%;
+    background-color: #660033;
+}
+.contact{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width:1175px;
+    border:#660033 2px solid;
+}
+.return:hover{
+    background-color: #dfa0bf;
+}
+.shipping:hover{
+    background-color: #dfa0bf;
+}
+.store:hover{
+    background-color: #dfa0bf;
+}

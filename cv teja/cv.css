@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.cv{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    display:flex;
+    background-color: grey;
+    box-sizing: border-box;
+}
+.sidebar{
+    position: sticky;
+    top:0;
+    left:0;
+    background-color: rgb(149, 9, 9);
+    width:255px;
+    height:100vh;
+    color: rgb(255, 255, 255);
+    gap: 30px;
+    font-style:oblique ;
+    padding-left: 0;
+}
+.f1{
+    padding: 30px;
+}
+
+    
+
+.f2{
+    padding: 20px;
+    gap:10px;
+    
+}
+#experience{
+    border-bottom: 2px black solid;
+   
+}
+#education{
+    border-bottom: 2px black solid;
+}
+#skills{
+    border-bottom: 2px black solid;
+
+}
+.logo{
+    width: 930px;
+    padding:20px;
+    background-color: rgb(149, 9, 9);
+    color: white;
+    font-style: oblique;
+    position: sticky;
+    top:1px;
+}

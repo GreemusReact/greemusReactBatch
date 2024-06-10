@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <title>Document</title>
+    <style>
+     #container{
+      border: 3px black solid;
+      background:linear-gradient(orange, skyblue);
+      padding-bottom: 20px;
+      border-radius: 10px;
+     }
+     #button{
+      background-color: black;
+     }
+     #button:hover{
+      background-color: white;
+      color:black
+     }
+     #container:hover{
+      background:linear-gradient(skyblue,orange);
+     }
+    </style>
+</head>
+<body>
+    <div class="container mt-5" id="container">
+        <h1>Vanams Carnival is here!!</h1>
+        <button id="button" class="btn btn-primary">Update</button>
+        <p id="para" class="mt-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam expedita aperiam eum illo beatae perspiciatis mollitia quidem
+           quo esse, dolores error eligendi hic nisi ad commodi minus autem rem magni! Lorem ipsum dolor sit amet consectetur 
+           adipisicing elit. Id impedit ipsam dignissimos blanditiis itaque iusto quod eum, nesciunt sunt animi 
+           vel minima, tenetur corrupti nostrum inventore perspiciatis enim deleniti illo quibusdam? Alias 
+           beatae omnis dolore assumenda eveniet non tempora, sint quisquam nostrum tenetur qui ipsam minima
+            aliquid reprehenderit inventore voluptatem.</p>
+    </div>
+    <script>
+        const toggleButton = document.getElementById('button');
+        const myParagraph = document.getElementById('para');
+        toggleButton.addEventListener('click', () => {
+            myParagraph.classList.toggle('d-none');
+        });
+    </script>
+</body>
+</html>

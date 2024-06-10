@@ -1,0 +1,192 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+
+.logo{
+    font-weight: lighter;
+    padding-left: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    color:rgb(0, 0, 0);
+   
+
+}
+.navbar{
+    height:150px;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#660033;
+
+   
+}
+ul li{
+   list-style: none;
+   display: inline-block;
+   padding: 20px;
+   position: relative;
+}
+ul li a{
+    text-decoration: none;
+    color:white;
+    font-size:large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    
+   
+}
+a:hover{
+   transform: scale(1.2);
+    transition-duration: 1s;
+    background-color: #ddd3d3;
+    color: black;
+}
+.logo:hover{
+   
+}
+.about{
+    display: flex;
+    padding:5px;
+    padding-bottom: 20px;
+}
+.content{
+    padding: 50px;
+    font-size: x-large;
+   
+}
+span{
+    color: #660033;
+    font-size:larger ;
+}
+img{
+    padding: 25px;
+    opacity: 0.4;
+}
+img:hover{
+  opacity:1;
+  transform: scale(1.1);
+  transition-duration: 3s;
+ 
+}
+.education{
+    padding-top: 50px;
+    border-top: #660033 3px solid;
+    padding-left: 20px;
+    
+}
+
+.education h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #660033;
+}
+.education p{
+    font-size: large;
+}
+.ssc{
+    padding: 30px;
+    border-bottom: #660033 solid 1px;
+
+}
+.inter{
+    padding: 30px;
+    border-bottom: #660033 solid 1px;
+
+}
+.bsc{
+    padding: 30px;
+    border-bottom: #660033 solid 1px;
+
+}
+.mba{
+    padding: 30px;
+    border-bottom: #660033 solid 1px;
+  
+
+}
+.experience{
+    padding-top: 50px;
+    border-top: #660033 3px solid;
+    padding-left: 20px;
+
+}
+.cts{
+    padding: 30px;
+    border-bottom: #660033 solid 1px;
+
+
+}
+.grms{
+    padding: 30px;
+    border-bottom: #660033 solid 1px;
+
+}
+.experience h2{
+     
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #660033;
+}
+.experience p{
+    font-size: large;
+}
+.cts h4{
+   padding-bottom: 50px;
+   color: #660033;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.grms h4{
+   padding-bottom: 50px;
+   color: #660033;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.project{
+ padding-left: 100px;
+ border-bottom: #660033 3px solid;
+ border-top: #660033 3px solid;
+}
+.project h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #660033;
+    padding: 30px;
+}
+.hobby{
+    padding: 30px;
+    border-bottom: #660033 solid 1px;
+}
+.hobby h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #660033;
+
+}
+.hobby p{
+    font-size: large;
+    padding: 30px;
+}
+.connect{
+    border-top: #660033 3px solid;
+    padding: 30px;
+}
+.connect h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #660033;
+    padding-bottom: 30px;
+}
+.connect label{
+    font-size: large;
+    padding: 30px;
+
+}
+.end{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    width: 100%;
+    height: 80px;
+    background-color: #660033;
+}
+
+
+
+

@@ -1,0 +1,11 @@
+div{
+    width:100px;
+    height:100px;
+    background-color: cadetblue;
+    border:black 2px solid;
+}
+.two{
+    position:absolute;
+    margin-top: 10px;
+    margin-bottom: 20px ;
+}

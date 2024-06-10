@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.form{
+    margin: 30px;
+}
+.login{
+    padding: 30px;
+    margin-top: 100px;
+    background: linear-gradient( to bottom left,  pink, skyblue,#ccccff);
+    font-size: larger;
+   
+}
+.register{
+    padding: 30px;
+    margin-top: 100px;
+    background: linear-gradient( to bottom left,  pink, skyblue,#ccccff);
+    font-size: larger;
+}
+.f1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+}
+.f1 input {
+    width:100%;
+    margin: 20px;
+    outline:none;
+    border: 1px rgb(81, 78, 78) solid;
+    border-radius: 3px;
+ 
+
+}
+button{
+   
+    background-color: rgb(253, 253, 253);
+    border-radius: 3px;
+    border: 1px black solid;
+    padding: 7px;
+    margin: 15px;
+  opacity: 0.7;
+}
+input:hover{
+    border-color: rgb(224, 235, 224) ;
+}
+
+h2{
+    text-align: center;
+    padding-top: 30px;
+    background: linear-gradient( to bottom,  rgb(207, 88, 108), rgb(56, 147, 184),#ccccff);
+    color:transparent;
+    background-clip: text;
+}
+button:hover{
+    background-color: skyblue;
+    color: black;
+}
+input{
+    padding: 3px;
+    width: 250px
+}

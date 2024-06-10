@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+   
+   
+   
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    background:linear-gradient(teal, white) 
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: large;
+    color: rgb(9, 11, 11);
+    padding: 30px;
+    
+}
+.logo{
+    font-size: 80px;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+}
+
+a:hover{
+    transform: scale(0.9);
+    background-color: rgb(43, 45, 45);
+    color:rgb(255, 255, 255);
+   
+}
+marquee{
+    background: linear-gradient(white , rgb(255, 255, 255));
+}
+.img{
+    padding: 20px;
+    box-shadow: 8px 8px 6px  rgb(255, 255, 255);
+    margin: 10px;
+}
+.album1{
+    display:flex;
+    width:300px;
+    height:300px;
+    padding: 20px;
+}
+.album2{
+    display:flex;
+   
+   margin-top: 300px;
+    width:300px;
+    height:300px;
+    padding: 20px;
+
+}
+.song{
+    display:inline;
+   
+    padding:50px;
+    width:300px;
+    height: 550px;
+    display:block;
+}
+
+.song:hover{
+    transform: scale(1.1);
+    border: 2px rgb(61, 56, 56) solid;
+    background-color: rgb(124, 178, 178);
+    transition: 0.5s;
+
+}
+footer{
+   
+ margin-top: 400px;
+ padding: 20px;
+ width:100% ;
+ background:linear-gradient(white, teal) 
+ 
+   
+}
+
+
+

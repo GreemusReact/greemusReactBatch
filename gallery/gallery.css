@@ -1,0 +1,28 @@
+*{
+    
+    box-sizing: border-box;
+    background-color: rgb(252, 252, 252);
+}
+.gallery{
+    padding-left: 100px;
+}
+
+.gallery li{
+    display: inline-block;
+    vertical-align: middle;
+    align-items: center;
+    overflow:hidden;
+    box-shadow: 4px 4px 4px;
+    margin: 20px;
+    
+    
+}
+.gallery img{
+    display: block;
+    
+    
+}
+img:hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
