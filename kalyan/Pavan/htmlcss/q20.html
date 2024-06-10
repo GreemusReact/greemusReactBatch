@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sticky Sidebar Layout</title>
+  <style>
+    body, html {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+.content {
+  display: flex;
+  align-items: flex-start;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+.sidebar {
+  flex: 0 0 250px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  position: sticky;
+  top: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Website Header</h1>
+  </header>
+
+  <div class="content">
+    <main>
+      <h2>Main Content Area</h2>
+      <p>This is the main content of the website.</p>
+    </main>
+
+    <aside class="sidebar">
+      <h2>Sticky Sidebar</h2>
+      <p>This sidebar will stick to the screen as you scroll.</p>
+    </aside>
+  </div>
+
+  <footer>
+    <p>Website Footer</p>
+  </footer>
+</body>
+</html>

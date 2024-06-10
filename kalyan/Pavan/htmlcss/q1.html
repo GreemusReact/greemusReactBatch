@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+       
+        .pavan{
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .pavan input[type="text"],
+        .pavan input[type="email"],
+        .pavan textarea {
+            width: 30%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            
+        }
+        .pavan textarea {
+            height: 100px;
+        }
+        .pavan button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        .pavan button:hover {
+            background-color: #b34800;
+        }
+    </style>
+</head>
+<body>
+        <form >
+            <div class="pavan">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="pavan">
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="pavan">
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <div class="pavan">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+   
+</body>
+</html>
