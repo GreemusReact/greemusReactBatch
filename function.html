@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    function findLargest(num1, num2, num3) {
+    
+        let biggestnumber;
+
+        if (num1 >= num2 && num1 >= num3) {
+            biggestnumber = num1;
+        }
+
+        else if (num2 >= num1 && num2 >= num3) {
+            biggestnumber = num2;
+        }
+    
+        else {
+            biggestnumber = num3;
+        }
+    
+
+        return biggestnumber;
+    }
+    
+
+    const num1 = 80;
+    const num2 = 36;
+    const num3 = 33;
+    const biggestnumber = findLargest(num1, num2, num3);
+    document.write("The biggest number is: " + biggestnumber);
+
+    </script>
+    
+</body>
+</html>
+
+
+
+
+function calculatePower(base, exponent) {
+    return Math.pow(base, exponent);
+}
+
+var result = calculatePower(9, 5);
+alert(result)

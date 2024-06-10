@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+function createCircle(radius) {
+  return {
+    radius: radius,
+    get area() {
+      return Math.PI * this.radius ** 2;
+    }
+  };
+}
+
+
+const myCircle = createCircle(5); 
+console.log(myCircle.area); 
+myCircle.radius = 10; 
+console.log(myCircle.area); 
+myCircle.area = 100; 
+console.log(myCircle.area); 
+
+    </script>
+</body>
+</html>

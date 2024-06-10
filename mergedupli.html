@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function merarrdup(arr1, arr2) {
+    
+    const mergedArray = arr1.concat(arr2);
+
+    
+    const uniqueElements = {};
+
+
+    for (let i = 0; i < mergedArray.length; i++) {
+        uniqueElements[mergedArray[i]] = true;
+    }
+
+
+    const uniqueArray = Object.keys(uniqueElements).map(Number);
+
+    return uniqueArray;
+}
+
+
+const array1 = [3,4,5,6,7,7,2];
+const array2 = [4,2,5,2,5,6,6];
+const mergedAndUniqueArray = merarrdup(array1, array2);
+document.write("Merged and unique array:", mergedAndUniqueArray);
+
+    </script>
+</body>
+</html>

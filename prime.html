@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+function isPrime(number) {
+
+    if (number < 2) {
+        return false; 
+    } else {
+    
+        for (let i = 2; i * i <= number; i++) {
+        
+            if (number % i == 0) {
+                return false; 
+            }
+        }
+        
+        return true;
+    }
+}
+
+document.write(isPrime(34)); 
+document.write("<br>")
+document.write(isPrime(56)); 
+
+    </script>
+    
+</body>
+</html>

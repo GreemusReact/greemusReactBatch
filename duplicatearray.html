@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function removeDuplicates(arr) {
+    
+    const uniqueElements = {};
+
+    
+    for (let i = 0; i < arr.length; i++) {
+        uniqueElements[arr[i]] = true;
+    }
+
+
+    const uniqueArray = Object.keys(uniqueElements);
+
+    return uniqueArray;
+}
+
+
+const arrayWithDuplicates = [2,5,3,6,2,6,2,6,1];
+const uniqueArray = removeDuplicates(arrayWithDuplicates);
+document.write("Array with duplicates:", arrayWithDuplicates);
+document.write("<br>")
+document.write("Array after removing duplicates:", uniqueArray);
+
+    </script>
+</body>
+</html>

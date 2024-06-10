@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function arrayadd(arr) {
+    let add= 0; 
+
+    for (let i = 0; i < arr.length; i++) {
+        add += arr[i];
+    }
+
+    return add; 
+}
+
+const numbers = [55,78,56,90];
+const add= arrayadd(numbers);
+document.write("addition of array elements:", add); 
+
+    </script>
+</body>
+</html>
