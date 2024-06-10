@@ -1,0 +1,22 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+div img {
+  width: 150px;
+  height: 250px;
+  border: 3px solid rgb(173, 167, 169);
+  border-radius: 25px;
+  transition: transform 0.3s ease-in;
+}
+div img:hover {
+  width: 250px;
+  height: 350px;
+}

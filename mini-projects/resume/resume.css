@@ -1,0 +1,149 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: antiquewhite;
+}
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* height: 100vh; */
+}
+.image-col {
+  display: flex;
+  width: 80%;
+  background-color: #d1b3b3;
+  margin-top: 30px;
+}
+.image-pic {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 30%;
+  background-color: rgb(250, 249, 249);
+  align-items: center;
+  /* justify-content: space-between; */
+}
+.person-details {
+  display: flex;
+  flex: 0 0 50%;
+  flex-direction: column;
+}
+.image-details {
+  border-bottom: 1px solid #555;
+  width: 80%;
+  padding-bottom: 10px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.image-pic .image-details img {
+  border-radius: 50%;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+  margin-top: 30px;
+}
+
+.contact-details {
+  display: flex;
+  margin-top: 30px;
+  flex-direction: column;
+}
+.name {
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(6, 95, 164);
+  margin-bottom: 5px;
+}
+.name span {
+  color: #555;
+}
+.email {
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(6, 95, 164);
+  margin-bottom: 5px;
+}
+.email span {
+  color: #555;
+}
+.phone {
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(6, 95, 164);
+  margin-bottom: 5px;
+}
+.phone span {
+  color: #555;
+}
+.educational-details {
+  font-size: 12px;
+  margin-top: 20px;
+}
+.educational-details h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 22px;
+  color: #717070;
+}
+.educational-details p {
+  font-size: 20px;
+  color: rgb(42, 166, 228);
+}
+.educational-details-diploma {
+  margin-top: 20px;
+}
+.educational-details-diploma h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  color: #717070;
+}
+.educational-details-diploma p {
+  font-size: 20px;
+  color: rgb(42, 166, 228);
+}
+.educational-details-Btech {
+  margin-top: 20px;
+}
+.educational-details-Btech h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 12px;
+  color: #717070;
+}
+.educational-details-Btech p {
+  font-size: 20px;
+  color: rgb(42, 166, 228);
+}
+.icons {
+  margin-top: 40px;
+}
+.icons span i {
+  padding: 20px;
+  /* margin-bottom: 30px; */
+  font-size: 20px;
+  color: rgb(12, 12, 216);
+  cursor: pointer;
+  text-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}
+.icons span i:hover {
+  color: red;
+}
+
+.Profile-Summery {
+  margin-top: 20px;
+  margin-left: 10px;
+  flex-direction: column;
+  line-height: 1.5;
+  font-size: 20px;
+  width: 680px;
+}
+.Profile-Summery h3 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.Profile-Summery p {
+  text-indent: 100px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.Profile-Summery p span {
+  color: #f6f2f2;
+}

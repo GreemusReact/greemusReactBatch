@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript</title>
+  </head>
+  <body>
+    <script>
+      var num1 = prompt("Enter the first number");
+      var num2 = prompt("Enter the second number");
+      var sum = parseFloat(num1) + parseFloat(num2);
+      alert(`Result = ${num1} + ${num2} = ${sum}`);
+      function wish() {
+        let person = prompt("");
+        if (person != null) {
+          document.getElementById("n").innerHTML = "Hai" + person + "how r u!";
+        }
+      }
+    </script>
+    <h2 id="n">name</h2>
+    <input type="submit" value="clickme" onclick="wish()" />
+  </body>
+</html>

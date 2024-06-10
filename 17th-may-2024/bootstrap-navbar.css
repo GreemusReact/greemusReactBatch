@@ -1,0 +1,30 @@
+.justify {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navcontainer {
+  background-color: #07b9d4;
+  padding: 20px;
+}
+.justify ul li a {
+  margin-right: 30px;
+  color: #111010;
+  border: 2px solid #ffff;
+  padding: 6px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.name a {
+  color: #111010;
+  border: 2px solid #ffff;
+  padding: 6px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.transition {
+  transition: transform 0.3s;
+}
+.transition:hover {
+  transform: translateY(-20px);
+}

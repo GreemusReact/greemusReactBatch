@@ -1,0 +1,20 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  margin: 20px;
+}
+div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  grid-column-gap: 10px;
+}
+div img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 8px solid black;
+}

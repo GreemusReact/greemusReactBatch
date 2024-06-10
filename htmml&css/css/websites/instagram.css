@@ -1,0 +1,14 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.total-insta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(161, 66, 66);
+  flex-direction: column;
+  margin: 20px 240px;
+  height: 100vh;
+}

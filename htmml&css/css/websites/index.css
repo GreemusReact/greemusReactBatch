@@ -1,0 +1,68 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.total_page {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+.total_page .content h2 {
+  color: blue;
+  font-size: 60px;
+}
+.total_page .content p {
+  font-size: 30px;
+}
+.total_page .form-fields {
+  border: 2px solid rgb(113, 107, 107);
+  background-color: bisque;
+  width: 50%;
+  border-radius: 4px;
+  padding: 10px;
+}
+.total_page .form-fields .name-field input {
+  width: 100%;
+  padding: 6px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.total_page .form-fields .password-field input {
+  width: 100%;
+  padding: 6px;
+  margin-top: 5px;
+}
+.total_page .form-fields .button {
+  width: 100%;
+  padding: 6px;
+  margin-top: 10px;
+  background-color: rgb(18, 103, 173);
+  color: #fff;
+  font-size: 20px;
+  /* cursor: pointer; */
+  border: none;
+  border-radius: 6px;
+}
+.forgetten-pwd {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  color: rgb(6, 110, 174);
+  cursor: pointer;
+}
+.forgetten-pwd:hover {
+  text-decoration: underline;
+}
+button {
+  background-color: lightgreen;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+.create-button {
+  text-align: center;
+  margin-top: 10px;
+}

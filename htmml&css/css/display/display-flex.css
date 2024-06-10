@@ -1,0 +1,23 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.display-flex-1 {
+  background-color: lightpink;
+  padding: 30px;
+}
+.display-flex-2 {
+  background-color: lightseagreen;
+  padding: 30px;
+}
+.display-flex-3 {
+  background-color: lightsalmon;
+  padding: 30px;
+}

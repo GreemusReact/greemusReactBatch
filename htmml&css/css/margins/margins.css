@@ -1,0 +1,12 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.Margins {
+  background-color: aquamarine;
+  margin-top: 180px;
+  margin-right: 50px;
+  margin-bottom: 160px;
+  margin-left: 300px;
+}

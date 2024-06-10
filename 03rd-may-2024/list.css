@@ -1,0 +1,32 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+.list-container ul {
+  list-style-type: none;
+}
+.list-container ul li::before {
+  content: ".";
+  font-size: 30px;
+  color: rgb(190, 5, 42);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.list-container ul li {
+  position: relative;
+  padding-left: 25px;
+  padding-top: 16px;
+}
+.list-container h2 {
+  color: rgb(167, 87, 99);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}

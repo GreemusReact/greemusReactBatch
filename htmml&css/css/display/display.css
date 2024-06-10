@@ -1,0 +1,24 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.display-container {
+  width: 50%;
+}
+h2 {
+  text-align: center;
+  font-size: 25px;
+}
+.display-container .display-block-1 {
+  background-color: lightpink;
+  display: block;
+  padding: 30px;
+  margin-left: 120px;
+}
+.display-container .display-block-2 {
+  background-color: lightskyblue;
+  display: block;
+  padding: 30px;
+  margin-left: 120px;
+}

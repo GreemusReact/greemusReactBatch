@@ -1,0 +1,22 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.background h2 {
+  background-color: red;
+  color: white;
+  text-align: center;
+  padding: 6px;
+  margin: 10px;
+}
+.background p {
+  background-image: url(myself.JPG);
+  color: #131717;
+  background-size: 300px 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-clip: padding-box;
+  background-origin: content-box;
+}

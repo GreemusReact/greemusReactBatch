@@ -1,0 +1,33 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.nav-conatiner section nav {
+  display: block;
+  position: sticky;
+  overflow: hidden;
+  background-color: rgb(189, 33, 186);
+  padding: 20px;
+  top: 0px;
+}
+
+.nav-conatiner section nav a {
+  text-decoration: none;
+  margin: 20px;
+  color: rgb(252, 249, 249);
+}
+.nav-conatiner section nav i {
+  color: rgb(249, 246, 246);
+}
+
+@media screen and (max-width: 789px) {
+  .nav-container section nav {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .nav-container section nav a {
+    margin: 10px 20px;
+  }
+}

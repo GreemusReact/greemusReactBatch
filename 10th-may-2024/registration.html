@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Registration and Login</title>
+    <link rel="stylesheet" href="Registration.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <h2>Registration Form</h2>
+      <form class="form-details">
+        <div class="form-fields">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            placeholder="Enter the name here!"
+            id="name"
+            name="name"
+            required
+          />
+        </div>
+        <div class="form-fields">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            placeholder="Enter the email here!"
+            required
+            id="email"
+            name="email"
+          />
+        </div>
+        <div class="form-fields">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            placeholder="Enter the password here!"
+            required
+            id="Password"
+            name="password"
+          />
+        </div>
+        <div class="form-fields reg">
+          <input type="submit" value="Register" />
+        </div>
+      </form>
+    </div>
+
+    <div class="login-container">
+      <h2>Login form</h2>
+      <form class="login-form">
+        <div class="login-name">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            placeholder="Enter the name here!"
+            id="name"
+            name="name"
+            required
+          />
+        </div>
+        <div class="login-name">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            placeholder="Enter the password here!"
+            id="password"
+            name="Password"
+            required
+          />
+        </div>
+        <div class="login-name">
+          <input class="button" type="submit" value="login" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.hover-example {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.hover-example .form-fields {
+  border: 2px solid lightpink;
+  border-radius: 4px;
+  padding: 20px;
+  width: 50%;
+}
+.hover-example .form-fields .name-field input {
+  width: 100%;
+  border: none;
+  padding: 5px;
+  margin: 10px 0px;
+}
+
+.hover-example .form-fields button {
+  width: 100%;
+  border: none;
+  text-align: center;
+  font-size: 20px;
+  background-color: rgb(60, 133, 223);
+  color: #fff;
+  border-radius: 10px;
+}
+.hover-example .form-fields .name-field input:hover {
+  border: 3px solid rgb(186, 3, 30);
+  border-radius: 6px;
+}
+.hover-example .form-fields button:hover {
+  background-color: lightcoral;
+  color: black;
+}

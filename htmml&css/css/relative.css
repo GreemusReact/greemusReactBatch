@@ -1,0 +1,25 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.relative img {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+.absolute img {
+  position: absolute;
+  width: 200px;
+  height: 150px;
+  top: 180px;
+  left: 90px;
+  transition: transform 0.3s ease-in;
+}
+.relative img:hover {
+  transform: translate(-20px, -20px);
+}

@@ -1,0 +1,12 @@
+.form-data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  border-radius: 10px;
+  width: 100%;
+}
+form {
+  border-radius: 10px;
+  background-color: #959595;
+}

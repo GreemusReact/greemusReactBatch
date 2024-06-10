@@ -1,0 +1,42 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.position-row {
+  height: 100vh;
+  background-color: red;
+  position: relative;
+}
+.position-1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 12em;
+  overflow: hidden;
+  transition: transform 0.3s ease-in;
+}
+.position-1::before {
+  position: relative;
+  display: block;
+  z-index: 10;
+  content: "";
+}
+.position-1:hover {
+  transform: translate(-50%, -50%) scale(1.1);
+}
+.position-1 .media {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: blue;
+}
+.position-1  img {
+  display: block;
+  height: 100%;
+  width: auto;
+}

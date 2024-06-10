@@ -1,0 +1,33 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.relative-container .position-absolute {
+  position: absolute;
+  padding: 10px;
+  text-align: center;
+  color: rgb(31, 2, 2);
+  bottom: 30px;
+  right: 30px;
+  top: 10px;
+  background-image: linear-gradient(
+    40deg,
+    rgb(152, 62, 150),
+    rgb(101, 193, 101),
+    rgb(123, 123, 48)
+  );
+}
+.relative-container .position-relative {
+  position: relative;
+  padding: 25px;
+  text-align: center;
+  height: 120px;
+  color: rgb(196, 8, 8);
+  background-image: linear-gradient(
+    20deg,
+    rgb(17, 159, 169),
+    rgb(201, 180, 141),
+    pink
+  );
+}

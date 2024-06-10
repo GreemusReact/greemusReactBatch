@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //   let ttable = [];
+      //   for (var n = 1; n <= 10; n++) {
+      //     var table = [];
+      //     for (var i = 1; i <= 10; i++) {
+      //       table.push(n + "*" + i + "=" + n * i);
+      //     }
+      //     ttable.push(table);
+      //   }
+      //   console.log(ttable);
+
+      let ttable = [];
+      let n = 1;
+      while (n <= 10) {
+        let table = [];
+        let i = 1;
+        while (i <= 10) {
+          table.push(n + "*" + i + "=" + n * i);
+          i++;
+        }
+        ttable.push(table);
+        n++;
+      }
+      console.log(ttable);
+    </script>
+  </body>
+</html>

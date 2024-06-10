@@ -1,0 +1,23 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.background-parallax {
+  background-image: url("myself.JPG");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.parallax-content {
+  height: 1000px;
+  background-color: rgba(205, 137, 137, 0.8);
+  padding: 20px;
+}
+.parallax-container {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

@@ -1,0 +1,22 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.nav-conatiner section nav {
+  display: block;
+  position: sticky;
+  overflow: hidden;
+  background-color: rgb(6, 201, 211);
+  padding: 20px;
+  top: 0px;
+}
+
+.nav-conatiner section nav a {
+  text-decoration: none;
+  margin: 20px;
+  color: rgb(227, 14, 14);
+}
+.nav-conatiner section nav i {
+  color: rgb(227, 14, 14);
+}

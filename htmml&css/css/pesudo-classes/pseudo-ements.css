@@ -1,0 +1,18 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.pesudeo-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.pesudeo-element .first-pseudo {
+  background-color: lightpink;
+  padding: 20px;
+}
+.pesudeo-element .first-pseudo::first-letter {
+  color: red;
+}

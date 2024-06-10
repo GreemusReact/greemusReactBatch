@@ -1,0 +1,43 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.form-inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.total-form {
+  border: 2px solid green;
+  border-radius: 5px;
+  padding: 15px 15px;
+}
+h2 {
+  text-align: center;
+  margin: 10px 10px;
+}
+#username {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  display: block;
+}
+.total-form .text-filed input {
+  margin: 5px 5px;
+  padding: 10px 10px;
+  border-radius: 8px;
+}
+.total-form .button input {
+  width: 100%;
+  margin: 5px 3px;
+  padding: 10px 10px;
+  border: none;
+  background-color: lightskyblue;
+  border-radius: 10px;
+}
+h2,
+label,
+input {
+  color: red;
+}

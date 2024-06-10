@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>prime number</title>
+  </head>
+  <body>
+    <script>
+      // let prime = parseInt(prompt("Enter the number"));
+      // let isPrime = true;
+      // if (prime === 1) {
+      //   document.write(`this is a prime number or composite number`);
+      // } else if (prime > 1) {
+      //   for (let i = 2; i < prime; i++) {
+      //     if (prime % i == 0) {
+      //       isPrime = false;
+      //       break;
+      //     }
+      //   }
+      //   if (isPrime) {
+      //     console.log(`${prime} is a prime number`);
+      //   } else {
+      //     console.log(`${prime} is a not prime number`);
+      //   }
+      // } else {
+      //   console.log("The number is not a prime number.");
+      // }
+
+      // 1 to 100 prime numners
+      for (let i = 2; i <= 100; i++) {
+        let primeNum = true;
+        for (j = 2; j < i; j++) {
+          if (i % j == 0) {
+            primeNum = false;
+            break;
+          }
+        }
+        if (primeNum) {
+          console.log(`primeNumber:${i}`);
+        }
+      }
+    </script>
+  </body>
+</html>

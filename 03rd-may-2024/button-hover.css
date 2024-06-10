@@ -1,0 +1,33 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.form-fields {
+  border: 2px solid rgb(136, 8, 27);
+  background-color: lightpink;
+  padding: 20px;
+  width: 50%;
+}
+.name-field input {
+  width: 100%;
+  padding: 6px;
+}
+.button {
+  width: 100%;
+  padding: 6px;
+  background-color: rgb(4, 97, 155);
+  border: none;
+  color: black;
+  margin-top: 10px;
+}
+.button:hover {
+  background-color: rgb(5, 193, 190);
+  color: #ffff;
+}

@@ -1,0 +1,26 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.skill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 30px;
+  color: rgb(190, 3, 115);
+}
+progress {
+  appearance: none;
+  width: 150px;
+  height: 20px;
+}
+progress::-webkit-progress-bar {
+  background-color: #a16b6b;
+  border-radius: 20px;
+}
+progress::-webkit-progress-value {
+  background-color: #1fc0d5;
+  border-radius: 20px;
+}

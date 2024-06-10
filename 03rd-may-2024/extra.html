@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabbed Content</title>
+    <style>
+      /* Tabbed content styles */
+      .tabs {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .tab {
+        cursor: pointer;
+        padding: 10px 20px;
+        background-color: #f0f0f0;
+        margin-right: 10px;
+        border-radius: 5px 5px 0 0;
+      }
+      .tab.active {
+        background-color: #ddd;
+      }
+      .content {
+        display: none;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 0 0 5px 5px;
+      }
+      .content.active {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="tabs">
+      <div class="tab" onclick="openTab(event, 'tab1')">Tab 1</div>
+      <div class="tab" onclick="openTab(event, 'tab2')">Tab 2</div>
+      <div class="tab" onclick="openTab(event, 'tab3')">Tab 3</div>
+    </div>
+
+    <div id="tab1" class="content active">
+      <h2>Tab 1 Content</h2>
+      <p>This is the content of tab 1.</p>
+    </div>
+
+    <div id="tab2" class="content">
+      <h2>Tab 2 Content</h2>
+      <p>This is the content of tab 2.</p>
+    </div>
+
+    <div id="tab3" class="content">
+      <h2>Tab 3 Content</h2>
+      <p>This is the content of tab 3.</p>
+    </div>
+
+    <script>
+      function openTab(evt, tabName) {
+        var i, tabContent, tabLinks;
+        // Hide all tab content
+        tabContent = document.getElementsByClassName("content");
+        for (i = 0; i < tabContent.length; i++) {
+          tabContent[i].style.display = "none";
+        }
+        // Deactivate all tab links
+        tabLinks = document.getElementsByClassName("tab");
+        for (i = 0; i < tabLinks.length; i++) {
+          tabLinks[i].className = tabLinks[i].className.replace(" active", "");
+        }
+        // Show the specific tab content
+        document.getElementById(tabName).style.display = "block";
+        // Add the 'active' class to the button that opened the tab
+        evt.currentTarget.className += " active";
+      }
+      // Open the default tab on page load
+      document.getElementById("defaultOpen").click();
+    </script>
+  </body>
+</html>

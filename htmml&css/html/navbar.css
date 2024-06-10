@@ -1,0 +1,16 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+section .navbar ul {
+  list-style-type: none;
+}
+section .navbar ul li {
+  display: inline-block;
+  padding: 25px 15px;
+  color: rgb(225, 226, 228);
+}
+.navbar {
+  background-color: rgb(2, 45, 31);
+}

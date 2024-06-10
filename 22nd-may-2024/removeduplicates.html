@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let array = [
+        1, 2, 3, 4, 5, 1, 2, 2, 3, 4, 5, 3, 4, 5, 6, 3, 4, 7, 8, 9, 6,
+      ];
+      function removeDuplicates(arr) {
+        let newArr = [...new Set(arr)];
+        console.log(newArr);
+      }
+      removeDuplicates(array);
+
+      function even(str) {
+        for (i = 0; i <= str.length; i++) {
+          let res = str[i] % 2 === 0 ? str[i] : str[i];
+          return res;
+        }
+      }
+      let arr = [2, 3, 4, 5, 6, 7];
+      console.log(even(arr));
+    </script>
+  </body>
+</html>
