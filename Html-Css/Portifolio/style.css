@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+.main-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(120, 78%, 25%);
+}
+.navbar>ul{
+    display: flex;
+    padding: 15px 20px;
+    align-self: center;
+}
+.navbar>ul>li{
+    margin-left: 20px;
+}
+.navbar>ul>li>a{
+    color: black;
+    font-size: 15px;
+    padding: 15px;
+}
+.logo{
+    align-self: center;
+    margin-right: 20px;
+    font-size: 25px;
+}
+.navbar>ul>li>a:hover{
+    background-color: hsl(120, 89%, 47%);
+}
