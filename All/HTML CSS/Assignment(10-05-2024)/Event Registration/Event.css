@@ -1,0 +1,254 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-image:url(Images/Background.jpg);
+    text-align: center;
+    padding: 20px 0;
+    height: 400px;
+    
+  }
+  .head{
+    font-size: 80px;
+    color: deeppink;
+    margin-top: 150px;
+    text-transform: capitalize;
+    
+  }
+  .para{
+    font-size: 30px;
+    font-family:cursive;
+    font-style: italic;
+    color:green;
+  }
+  
+  header img{
+    border: 1px;
+    border-radius: 50%;
+    width: 250px;
+    height: 170px;
+    margin-top: -220px;
+    margin-right: 50px;
+    float: left;
+    margin-left: 50px;
+   
+   
+  }
+  
+  .about{
+   
+    animation-name: color1;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+   
+  }
+  @keyframes color1{
+    50%{
+      background-color: darkgrey;
+      
+    }
+    
+    70%{
+      background-color: rgb(59, 217, 98);
+    }
+  }
+  
+  .about div{
+      width: 500px;
+      text-align: justify;
+      padding-left: 100px;
+      height: 180px;
+      
+    }
+    .abt-img{
+        border: 1px;
+        border-radius: 10px;
+        width: 300px;
+        height: 170px;
+        float: right;
+        margin-top: -195px;
+        padding-right: 50px;
+        
+    }
+    
+    .details{
+      animation-name: color2;
+      animation-duration:6s;
+      animation-iteration-count: infinite;
+    }
+  @keyframes color2{
+    20%{
+      background-color: rgb(160, 107, 38);
+      
+    }
+    50%{
+      background-color: rgb(196, 62, 84);
+    }
+    70%{
+      background-color:blueviolet;
+    }
+  }
+
+.details div{
+    width: 500px;
+    height: 190px;
+    padding-left: 100px;
+}
+.det-img{
+        border: 1px;
+        border-radius: 20px;
+        width: 400px;
+        height: 200px;
+        float: right;
+        margin-top: -210px;
+      }
+
+  .guest{
+    background-color: rgba(100, 30, 165, 0.571);
+   
+  }
+  .guest div{
+    background-color: darksalmon;
+    border: 2px solid;
+    border-radius: 30px;
+    width: 400px;
+    height: 500px;
+    padding:0 20px;
+    display:inline-table;
+    margin-left: 100px;
+    text-align: justify;
+    
+  }
+  .abt-gst{
+    font-weight: bold;
+  }
+  .guest-img{
+    border: 1px;
+    border-radius: 60px;    
+    width: 200px;
+    height: 200px;
+    margin-left: 90px;
+    margin-top: 20px;
+  }
+  .schedule{
+    animation-name: color3;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes color3{
+    20%{
+      background-color: rgba(55, 50, 211, 0.578);
+
+    }
+    40%{
+      background-color: #8aad31;
+      
+    }
+    60%{
+      background-color: yellow;
+    }
+    80%{
+      background-color: aqua;
+    }
+  }
+  
+  .day{
+    width: 500px;
+    margin-left: 400px;
+    padding: 20px 0;
+  }
+
+  .img-p1{
+    border: 1px;
+    border-radius: 50px;    
+    width: 300px;
+    height: 200px;
+    margin-top: -200px;
+    margin-right: 50px;
+    float: right;
+
+  }
+  .img-t1{
+    border: 1px;
+    border-radius: 50px;    
+    width: 300px;
+    height: 200px;
+    margin-top: -200px;
+    margin-right: 50px;
+    float: left;
+    margin-left: 50px;
+
+  }
+  .img-p2{
+    border: 1px;
+    border-radius: 50px;
+    width: 300px;
+    height: 200px;
+    margin-top: -200px;
+    margin-right: 50px;
+    float: right;
+  }
+  .img-t2{
+    border: 1px;
+    border-radius: 50px;
+    width: 300px;
+    height: 200px;
+    margin-top: -200px;
+    margin-right: 50px;
+    float: left;
+    margin-left: 50px;
+  }
+
+  .registration{
+    background-color: rgba(229, 106, 19, 0.813);
+   
+  }
+  .regbox{
+    background-color: bisque;
+    border: 1px solid;
+    border-radius: 30px;
+    width: 400px;
+    height: 350px;
+    padding:10px;
+    padding-left: 50px;
+    margin-left: 380px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  form{
+    padding-left: 70px;
+  }
+      button{
+        background-color:deepskyblue;
+          border: 1px solid;
+          border-radius: 15px;
+          margin-left: 5px;
+          width: 100px;
+          height: 30px;
+        }
+
+        button:hover{
+            background-color: rgba(210, 38, 195, 0.84);
+            cursor: pointer;
+}
+  
+  section {
+    padding: 20px;
+  }
+  h2{
+    text-align: center;
+  }
+  footer p{
+    margin: 0;
+    padding: 25px;
+    height: 30px;
+    text-align: center;
+    background-color: darkgray;
+  }
+  
+
+  
+  
