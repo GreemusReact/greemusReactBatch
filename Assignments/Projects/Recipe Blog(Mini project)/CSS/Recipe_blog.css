@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #b11cc2;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+}
+
+.sidebar{
+    
+    width: 200px;
+    height:4313px;
+    font-weight: bold;
+    background-color: rgba(37, 171, 167, 0.404);
+    padding: 10px;
+    float: left;
+    
+}
+nav a{
+    padding: 10px;
+}
+
+.container {
+    background-image: url();
+    padding-left: 200px;
+    display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 10px;
+}
+
+.recipe {
+    background-color: antiquewhite;
+    border: 2px solid #a84419f0;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.recipe img {
+    width:250px ;
+    height: 250px;
+    border-radius: 20px;
+    margin-right: 400px;
+    display: flex;
+    float: right;
+    margin-top: 20px;
+}
+
+.product h2 {
+    margin-top: 10px;
+}
+
+.product p {
+    color: #1a1717;
+}
+
+footer{
+    text-align: center;
+    background-color: rgba(227, 211, 33, 0.817);
+    padding: 5px;
+}
+
+

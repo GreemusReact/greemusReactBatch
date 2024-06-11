@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+  .box{
+  width: 400px;
+  height: 300px;
+  position: relative;
+  }
+  .left, .right {
+  position: absolute;
+  top: 50%;
+  width: 10px;
+  padding: 16px;
+  color: rgb(171, 171, 49);
+  background-color: brown;
+  }
+  .right {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  }
+  .left:hover, .right:hover {
+  background-color: rgba(25, 42, 198, 0.8);
+  }
+    </style>
+  </head>
+  <body>
+    <h2>Slide show</h2>
+    <div class="box">
+      <div class="mySlides fade">
+        <img src="https://www.carandbike.com/_next/image?url=https%3A%2F%2Fc.ndtvimg.com%2F2022-01%2F0d2m0qkg_car_625x300_12_January_22.jpg&w=3840&q=75" style="width:100%">
+      </div>
+    <div class="mySlides fade">
+        <img src="https://images.autotrader.com/hn/c/a98305bf5d714c4f94ffcdfd6e2407f8.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <img src="https://o.aolcdn.com/hss/storage/midas/bfd7f8e2a223e3a31044651617243392/200702281/001-2015-volvo-xc90-first-edition628opt.jpg" style="width:100%">
+      </div>
+      <a class="left" onclick="plusSlides(-1)">❮</a>
+      <a class="right" onclick="plusSlides(1)">❯</a>
+    </div>
+
+  <script>
+  let slideIndex = 1;
+  showSlides(slideIndex);
+  function plusSlides(n) {
+  showSlides(slideIndex += n);
+  }
+  function currentSlide(n) {
+  showSlides(slideIndex = n);
+  }
+  function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slides[slideIndex-1].style.display = "block";  
+  }
+  </script>
+
+  </body>
+</html> 
