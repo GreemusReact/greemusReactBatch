@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var age = 17;
+      var gender = "female";
+      if (age === 20) {
+        if (gender === "male") {
+          document.write("go to 1st floor");
+        } else if (gender === "female") {
+          document.write("go to 2nd floor");
+        } else {
+          document.write("go to 3rd floor");
+        }
+      } else {
+        document.write("there is no childern");
+      }
+
+      var browser = "chrome";
+      if ((browser = "chrome")) {
+        console.log("it is wonderful");
+      } else if ((browser = "edge")) {
+        console.log("it is average");
+      } else {
+        console.log("it is below average");
+      }
+
+      var browser = "chrome";
+
+      switch (browser) {
+        case "chrome":
+          console.log("it is wonderful");
+          break;
+        case "edge":
+          console.log("it is average");
+          break;
+        default:
+          console.log("it is below average");
+      }
+    </script>
+  </body>
+</html>

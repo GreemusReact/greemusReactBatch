@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let factorial = parseInt(prompt("enter the number here!"));
+      if (factorial === 0) {
+        document.write("factorial does not exit using zero");
+      } else {
+        let fact = 1;
+        for (i = 1; i <= factorial; i++) {
+          fact *= i;
+        }
+        document.write("factorial of" ,factorial, "is ",fact);
+      }
+    </script>
+</body>
+</html>
