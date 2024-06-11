@@ -1,0 +1,13 @@
+.heading{
+color: red;    
+}
+#bg{
+background-color: yellow;
+}
+#fn{
+font-family: 'Times New Roman';
+background-color: white;
+}
+p{
+font-size: 25px;
+}

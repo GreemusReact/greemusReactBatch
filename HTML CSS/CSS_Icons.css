@@ -1,0 +1,18 @@
+.abc{
+    font-size: 40px;
+    color: red;
+    word-spacing: 10px;
+}
+body{
+
+    padding-left: 50px;
+}
+.css{
+    font-size: larger;
+    color: rgb(94, 181, 80);
+}
+.uk{
+    font-size:30px;
+    color: blue;
+    word-spacing: 20px;
+}
