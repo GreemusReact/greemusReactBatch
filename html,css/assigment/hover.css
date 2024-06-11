@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.total-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.total-page .fields{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 50px;
+}
+.total-page .fields .form input{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid rgb(22, 160, 202);
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.total-page .fields .button{
+width: 100%;
+padding: 5px;
+border: none;
+border-radius: 5px;
+margin-bottom: 8px;
+margin-top: 5px;
+color:black;
+background-color: aqua;
+}
+.total-page .fields .button:hover{
+    color: red;
+    padding: 10px;
+    background-color: black;
+    cursor: pointer;
+}

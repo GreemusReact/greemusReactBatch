@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+<body>
+    <h2>Feedback Form</h2>
+    <form action="submit-feedback form" method="post">
+        <label for="rating">Rating:</label><br>
+        <input type="radio" id="star5" name="rating" value="5">
+        <label for="star5">5 stars</label><br>
+        <input type="radio" id="star4" name="rating" value="4">
+        <label for="star4">4 stars</label><br>
+        <input type="radio" id="star3" name="rating" value="3">
+        <label for="star3">3 stars</label><br>
+        <input type="radio" id="star2" name="rating" value="2">
+        <label for="star2">2 stars</label><br>
+        <input type="radio" id="star1" name="rating" value="1">
+        <label for="star1">1 star</label><br><br>
+        
+        <label for="comments">Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Enter your comments here..." required></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

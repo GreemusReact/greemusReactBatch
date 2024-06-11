@@ -1,0 +1,24 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  .parallax {
+    background-image: url("images.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+  }
+  
+  .content {
+    height: 1000px;
+    background-color: rgba(205, 137, 137, 0.8);
+    padding: 20px;
+  }
+  .total-page{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  

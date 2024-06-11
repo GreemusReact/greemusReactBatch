@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+   
+  .table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+   
+  table,
+  th,
+  td {
+    border: 2px solid lightpink;
+    border-collapse: collapse;
+    padding: 10px;
+  }
+   
+  table tr:nth-child(even) {
+    background-color: rgb(2, 186, 146);
+    color: white;
+  }
+   
+  /* Responsive styles */
+  @media screen and (max-width: 1024px) {
+    .table-container {
+      background-color: rgb(255, 211, 170);
+    }
+   
+    table,
+    th,
+    td {
+      padding: 8px;
+    }
+  }
+   
+  @media screen and (max-width: 768px) {
+    .table-container {
+      background-color: rgb(255, 227, 204);
+    }
+   
+    table,
+    th,
+    td {
+      padding: 6px;
+    }
+  }
+   
+  @media screen and (max-width: 480px) {
+    .table-container {
+      background-color: rgb(255, 204, 204);
+    }
+   
+    table,
+    th,
+    td {
+      padding: 4px;
+    }
+  }

@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  .total-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+  .total-page ul {
+    list-style-type: none;
+  }
+  .total-page ul li::before {
+    content: ".";
+    font-size: 30px;
+    color: rgb(75, 133, 209);
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .total-page ul li {
+    position: relative;
+    padding-left: 25px;
+    padding-top: 16px;
+  }
+  .total-page h1 {
+    color: rgb(202, 85, 177);
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  

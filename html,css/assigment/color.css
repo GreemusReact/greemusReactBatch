@@ -1,0 +1,34 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  .total-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .fields {
+    border: 2px solid rgb(167, 49, 157);
+    background-color: rgb(144, 140, 206);
+    padding: 20px;
+    width: 50%;
+  }
+  .name input {
+    width: 100%;
+    padding: 6px;
+  }
+  .button {
+    width: 100%;
+    padding: 6px;
+    background-color: rgb(16, 243, 148);
+    border: none;
+    color: black;
+    margin-top: 10px;
+  }
+  .button:hover {
+    background-color: rgb(202, 200, 73);
+    color: #ffff;
+  }
+  

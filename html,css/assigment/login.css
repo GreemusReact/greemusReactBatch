@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.total-page{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.total-page form{
+    border: 3px solid greenyellow;
+    border-radius: 5px;
+    padding: 50px;
+    background-color: aqua;
+}
+.total-page form .content input{
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    width: 100%;
+}
+.total-page form h1{
+    text-align: center;
+    font-size:large;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+.total-page form button{
+    width: 100%;
+  padding: 3px;
+  border-radius: 6px;
+  margin: 5px;
+  background-color: rgb(253, 113, 246);
+  color: rgb(240, 255, 254);
+  font-size: 20px;
+  cursor: pointer;
+}
+

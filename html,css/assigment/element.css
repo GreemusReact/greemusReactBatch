@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  .total-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .total-page .content {
+    background-color: rgb(158, 12, 34);
+    width: 200px;
+    height: 150px;
+    border-radius: 40px;
+    animation: spin 5s linear infinite;
+  }
+  .total-page .content h1 {
+    text-align: center;
+    margin-top: 70px;
+    color: rgb(122, 197, 240);
+  }
+  @keyframes spin {
+    from {
+      transform: rotate(90deg);
+    }
+    to {
+      transform: rotate(270deg);
+    }
+  }
+  

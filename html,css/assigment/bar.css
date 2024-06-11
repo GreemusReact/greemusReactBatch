@@ -1,0 +1,27 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  .total-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 30px;
+    color: rgb(46, 114, 160);
+  }
+  progress {
+    appearance: none;
+    width: 150px;
+    height: 20px;
+  }
+  progress::-webkit-progress-bar {
+    background-color: #e61e1e;
+    border-radius: 20px;
+  }
+  progress::-webkit-progress-value {
+    background-color: #8123b8;
+    border-radius: 20px;
+  }
+  

@@ -1,0 +1,34 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  .total-page {
+    display: flex;
+  }
+  .total-page .items {
+    flex: 0 0 20%;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    background-color: rgb(40, 192, 154);
+    height: 100vh;
+    overflow: hidden;
+  }
+  .total-page .content {
+    flex: 0 0 80%;
+  }
+  .total-page .items a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 50px;
+    top: 70px;
+    padding-top: 40px;
+  }
+  .total-page .content {
+    background-color: rgb(65, 167, 17);
+    padding-left: 20px;
+  }
+  

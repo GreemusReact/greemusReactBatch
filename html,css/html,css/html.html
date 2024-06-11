@@ -1,0 +1,44 @@
+
+Copy code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Three Column Layout</title>
+<style>
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .column {
+        flex-basis: 30%; /* Adjust as needed */
+        margin-bottom: 20px;
+        background-color: #f0f0f0;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="column">
+        <h2>Column 1</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div class="column">
+        <h2>Column 2</h2>
+        <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+    </div>
+    <div class="column">
+        <h2>Column 3</h2>
+        <p>Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+    </div>
+</div>
+
+</body>
+</html>

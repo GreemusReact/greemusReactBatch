@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.css-borders{
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+.css-borders h1{
+    color: blueviolet;
+    font-style: inherit;
+    padding-bottom: 20px;
+}

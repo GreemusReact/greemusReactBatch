@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.dropdown{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.dropdown select{
+    border: 3px solid rgb(153, 59, 172);
+    border-radius: 10px;
+    padding: 5px;
+    width: 50%;
+    color: black;
+    cursor: pointer;
+}
+.dropdown select option{
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

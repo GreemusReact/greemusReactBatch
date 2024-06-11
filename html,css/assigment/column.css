@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.total-page{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 100vh;
+}
+.total-page .column{
+    border: 2px solid black;
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color: aquamarine;
+}

@@ -1,0 +1,23 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  .total-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  table,
+  th,
+  td {
+    border: 2px solid rgb(247, 7, 207);
+    border-collapse: collapse;
+    padding: 20px;
+  }
+  table tr:nth-child(even) {
+    background-color: rgb(243, 130, 37);
+    color: rgb(241, 244, 243);
+  }
+  

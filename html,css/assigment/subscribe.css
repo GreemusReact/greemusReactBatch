@@ -1,0 +1,37 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.subscribe{
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+.subscribe .amount{
+    border: 3px solid wheat;
+    background-color: rgb(94, 216, 224);
+    width: 50%;
+    padding: 50px;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.amount:hover{
+    color: rgb(177, 85, 10);
+}
+.subscribe button{
+    margin-top: 20px;
+    background-color: rgb(238, 107, 59);
+    cursor: pointer;
+}
+.subscribe button:hover{
+    color: bisque;
+    background-color: rgb(184, 93, 18);
+    padding: 3px;
+}
+.amount footer{
+    margin: 20px;
+    font-weight: bolder;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        .form-container{
+            width: 300px;
+            padding: 20px;
+            border: 1px solid;
+            border-radius: 5px;
+
+        }
+        .form-container input[type="text"],
+        .form-container input[type="password"] {
+            width:100% ;
+            padding: 10px;
+            margin: 5px;
+            border: 1px solid;
+            border: 5px;
+        }
+        .form-container input[type="submit"] {
+            width: 100%;
+            background-color: aliceblue;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .form-container input[type="submit"]:hover {
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login Form</h2>
+        <form action="login.php" method="post">
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <input type="submit" value="Login">
+        </form>
+    </div>
+
+    
+</body>
+</html>
