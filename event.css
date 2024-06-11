@@ -1,0 +1,50 @@
+body { 
+  font-family: Arial, sans-serif;
+ }
+.container { 
+  max-width: 800px; 
+  margin: auto; 
+  padding: 20px;
+  background-image: url("https://img.freepik.com/free-vector/realistic-dynamic-fog-background_23-2149111508.jpg?w=740&t=st=1715367866~exp=1715368466~hmac=5fd7123945d01cd465656e41f49537e71e426ed962351465326a43f41b2104fe");
+ }
+ .bg-container{
+  background-image: url("https://t4.ftcdn.net/jpg/06/70/47/83/360_F_670478365_rendlVf707cLCLdBEb2yM5EPW8xUL8bt.jpg");
+  color: #f3f3f3;
+  padding: 40px;
+  text-align: center;
+  
+ }
+h1, h2 { 
+  text-align: center; 
+}
+.agenda { 
+  background-color: #f3f3f357; 
+  padding: 15px;
+  text-align: center;
+ }
+.register { 
+  background-color: #d1e7dd41; 
+  padding: 15px;
+ 
+ }
+.register form {
+  display: flex; 
+  flex-direction: column;
+ }
+.register input, .register button { 
+  margin-bottom: 10px;
+ }
+button { background-color: #007bff; 
+  color: white; padding: 10px;
+  border: none; cursor: pointer;
+}
+button:hover { 
+  -color: #0056b3;
+ }
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.fade-in {
+   animation: fadeIn 2s;
+  }

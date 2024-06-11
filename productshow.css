@@ -1,0 +1,39 @@
+body{
+    background-image: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjU0NmJhdGNoMy1teW50LTM0LWJhZGdld2F0ZXJjb2xvcl8xLmpwZw.jpg");
+    height: auto;
+    width: auto;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .category {
+    margin-bottom: 50px;
+  }
+  
+.product img {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: inset;
+  }
+  
+  p{
+    font-family: Roboto;
+    font-size: 12px;
+  }
+  @media screen and (min-width: 768px) {
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  
+    .category {
+      width: 30%;
+    }
+  }
+  
