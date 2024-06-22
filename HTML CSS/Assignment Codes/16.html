@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div{
+                width: 200px;
+                height: 200px;
+                border: 10px solid rgba(154, 61, 61, 0.155);
+                border-radius: 50%;
+                border-top: 10px solid red;
+                animation: spin 2.5s linear infinite;
+                margin-left: 50px;
+            }
+            @keyframes spin{
+                0%{
+                    transform:rotate(0deg);
+                }
+                100%{
+                    transform:rotate(360deg);
+                }
+            }
+        </style>
+    </head>
+    <body>
+       <h2>Spinning</h2>
+       <div>
+       </div>
+    </body>
+</html>
