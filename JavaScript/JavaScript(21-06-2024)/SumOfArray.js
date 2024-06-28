@@ -7,8 +7,5 @@ function sumArray(arr){
     console.log(arr);
     console.log("Sum of array elements is: "+sum);
 }
-
 var x=[3,5,7,9,11,15];
 sumArray(x);
-
-

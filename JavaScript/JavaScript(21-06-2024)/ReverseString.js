@@ -6,6 +6,5 @@ function reverseString(str){
     console.log("Given string is: "+str);
     console.log("Reverse of string is: "+s);
 }
-
 var x="Java Script"
 reverseString(x);
